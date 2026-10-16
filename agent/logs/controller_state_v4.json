@@ -1,0 +1,7 @@
+{
+  "incident_id": null,
+  "status": "HEALTHY",
+  "attempts": 0,
+  "next_retry_at": 0.0,
+  "diagnosis": null
+}

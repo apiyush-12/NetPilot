@@ -1,0 +1,1 @@
+{"timestamp":"2026-10-13T21:19:13.259053+00:00","event_id":"a0373b9b-aceb-47f4-bc88-a1545afe5a62","version":"v4","event":"FAULT_DIAGNOSED","incident_id":"18048b6d-7bf7-4fcd-bded-5c2ee57e08cf","fault_type":"ROUTE_MISMATCH","action":"RECONCILE","target":"router-a"}

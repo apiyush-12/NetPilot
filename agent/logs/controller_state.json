@@ -1,0 +1,6 @@
+{
+  "incident_id": null,
+  "next_retry_at": 0.0,
+  "status": "HEALTHY",
+  "attempts": 0
+}

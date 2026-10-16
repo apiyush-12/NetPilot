@@ -1,0 +1,1 @@
+{"RedrivePolicy":"{\"deadLetterTargetArn\":\"arn:aws:sqs:ap-south-1:155407238061:netpilot-incidents-dlq-dev\",\"maxReceiveCount\":\"5\"}"}

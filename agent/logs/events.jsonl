@@ -1,0 +1,600 @@
+{"timestamp": "2026-10-13T19:29:46.674234+00:00", "event_id": "2a497a34-6908-4542-abd3-3b70d719a219", "event": "NETPILOT_STARTED", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:29:47.704633+00:00", "event_id": "812cac89-27a3-446f-aec3-438b0ab2edeb", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:29:53.486361+00:00", "event_id": "dc1bb75b-59da-401d-922f-54da314fd8d7", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:29:59.425691+00:00", "event_id": "38aa556d-876d-40ba-95bd-429a1eb594da", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:30:05.278996+00:00", "event_id": "09a3df84-ef5f-4a77-9287-33e98fdfe152", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:30:11.205019+00:00", "event_id": "ad192193-ec17-4c8a-8226-2910ac97d271", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:30:19.032006+00:00", "event_id": "239a25a0-fbb6-4831-bdce-c55bcc0895b8", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 1, "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:30:27.032655+00:00", "event_id": "84f26e3a-ab54-436f-b7a2-88ba8f057d9f", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 2, "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:30:34.929102+00:00", "event_id": "6d693b61-f558-45fc-9f3a-77e2a2e6d23a", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 3, "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:30:34.929630+00:00", "event_id": "e1af2333-bf56-485d-957b-27c32b7c92da", "event": "INCIDENT_CREATED", "incident_id": "5b47e406-579d-40b0-80c0-0d224b544522", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:30:36.608050+00:00", "event_id": "34e618c5-4256-44a2-ab18-843f494a8f15", "event": "ROUTE_CHANGE_STARTED", "previous": "router-a", "target": "router-b", "reason": "PRIMARY_PATH_FAILURE", "incident_id": "5b47e406-579d-40b0-80c0-0d224b544522"}
+{"timestamp": "2026-10-13T19:30:38.951625+00:00", "event_id": "bd3fc7b2-ca17-4d89-b4d4-326af7e9517e", "event": "ROUTE_CHANGE_SUCCESS", "previous": "router-a", "target": "router-b", "incident_id": "5b47e406-579d-40b0-80c0-0d224b544522", "duration_ms": 4021}
+{"timestamp": "2026-10-13T19:30:44.775596+00:00", "event_id": "341dc0f5-6194-4a3e-83ee-4e54f6d7f4ab", "event": "INCIDENT_RESOLVED", "incident_id": "5b47e406-579d-40b0-80c0-0d224b544522", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:30:44.776115+00:00", "event_id": "588e31eb-9634-4f05-bbf2-b32aa1a7d026", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:30:50.882038+00:00", "event_id": "50db78bd-0493-4f27-bc27-89de753bf820", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:30:56.962895+00:00", "event_id": "4a8b23f8-0d3f-42fe-982b-3b2164fecd2d", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:31:02.931965+00:00", "event_id": "10548363-a6b7-49c9-ac56-a4eda290e7cb", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:31:08.933974+00:00", "event_id": "fb42dee2-80b0-4214-bfff-756fc6c37a03", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:31:15.096977+00:00", "event_id": "de281faf-4331-4ad5-be46-07758e547960", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:31:22.010228+00:00", "event_id": "58d175e1-5f8f-4b81-8b34-391a2595b9ee", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:31:28.923985+00:00", "event_id": "1f0939c9-c708-4b95-813a-add397912fea", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:31:35.761597+00:00", "event_id": "c38e2a2a-2adc-4458-be1d-a2ad03394b1c", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:31:42.529961+00:00", "event_id": "0c3f15b1-6f66-406d-82be-31ec0b707703", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:31:49.414024+00:00", "event_id": "5d077c6d-a808-4f48-807d-3668ce933b12", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:31:50.420854+00:00", "event_id": "8d236551-2e88-4ba9-86b7-acbae7a7cebb", "event": "PRIMARY_STABLE", "checks": 6}
+{"timestamp": "2026-10-13T19:31:52.101243+00:00", "event_id": "80dfe9a9-380d-4904-b4be-bc59ec38aebb", "event": "ROUTE_CHANGE_STARTED", "previous": "router-b", "target": "router-a", "reason": "AUTOMATIC_FAILBACK", "incident_id": null}
+{"timestamp": "2026-10-13T19:31:54.468753+00:00", "event_id": "27c75a59-8797-4756-959f-7b280a2e7699", "event": "ROUTE_CHANGE_SUCCESS", "previous": "router-b", "target": "router-a", "incident_id": null, "duration_ms": 4047}
+{"timestamp": "2026-10-13T19:32:00.174133+00:00", "event_id": "7f19c48a-a5d8-4034-801b-2ab5a140a690", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:32:05.953235+00:00", "event_id": "1abea44b-1c68-474b-93d2-55f5ed8a2331", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:32:11.730512+00:00", "event_id": "735968a3-0a59-4805-895e-14896ce38cf2", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:32:17.634967+00:00", "event_id": "66c1c59f-95cf-437a-8e07-948aa2d72d25", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:32:23.424386+00:00", "event_id": "00b9681d-12b3-4913-9e26-6f6e57016d50", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:32:29.367856+00:00", "event_id": "f2a6c399-b2b4-4f8a-bf34-2fab8b75513e", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:32:35.173851+00:00", "event_id": "e7d2ead6-cf20-4e46-9695-dc97b474d5ee", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:32:40.952311+00:00", "event_id": "2f6dad91-1c62-49fd-b27a-172ec5480f3c", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:32:46.892948+00:00", "event_id": "45e37bf4-c6c1-4b35-92ba-9eb3d2bbf2c2", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:32:52.656308+00:00", "event_id": "2c98f82a-5865-4d08-94c6-64b0cfc0b99a", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:32:58.432985+00:00", "event_id": "69b65717-2a7f-4c9b-9ad7-b2fb7ddbab10", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:33:04.463647+00:00", "event_id": "a251b185-ad6c-418a-8afb-f4a10f2ff717", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:33:06.006414+00:00", "event_id": "8f2697c9-5463-42fc-9fda-697aa8f539dd", "event": "NETPILOT_STOPPED"}
+{"timestamp": "2026-10-13T19:44:35.025386+00:00", "event_id": "a8970abe-35a4-4ac3-b998-eb1c93bbaf27", "event": "NETPILOT_STARTED", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:44:35.686881+00:00", "event_id": "e66b410f-fcda-42e1-9f9a-47547f8c6c20", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:44:41.407900+00:00", "event_id": "03499b90-d09f-4d3f-b5be-4190af70bc83", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:44:47.083325+00:00", "event_id": "b640c409-040c-46fa-ae1f-1925ac45983a", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:44:52.812367+00:00", "event_id": "7844ddec-3d27-44bf-af36-3f25c43d9e45", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:45:00.511235+00:00", "event_id": "3f110068-1c85-4189-b3a7-d68862222ecb", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 1, "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:45:08.191720+00:00", "event_id": "e03ca222-5e2a-4b1a-88e5-bc02213625b5", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 2, "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:45:15.869395+00:00", "event_id": "b8ca1425-f41e-45bd-964d-64aadd3719f3", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 3, "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:45:15.869796+00:00", "event_id": "8d4a2ed8-41c9-4f14-807d-45fe6987f842", "event": "INCIDENT_CREATED", "incident_id": "fdf5e55b-0f31-4d61-b078-5d4d215ebea2", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:45:17.116875+00:00", "event_id": "0886de3b-ab9e-4ec5-a954-0de6a3bcee30", "event": "ROUTE_CHANGE_STARTED", "previous": "router-a", "target": "router-b", "reason": "PRIMARY_PATH_FAILURE", "incident_id": "fdf5e55b-0f31-4d61-b078-5d4d215ebea2"}
+{"timestamp": "2026-10-13T19:45:19.344348+00:00", "event_id": "370ca66a-e619-4e8b-a4d5-9065982db0d4", "event": "ROUTE_CHANGE_SUCCESS", "previous": "router-a", "target": "router-b", "incident_id": "fdf5e55b-0f31-4d61-b078-5d4d215ebea2", "duration_ms": 3474}
+{"timestamp": "2026-10-13T19:45:25.072401+00:00", "event_id": "3f100c87-4dc8-439e-8a85-5e07b3df077c", "event": "INCIDENT_RESOLVED", "incident_id": "fdf5e55b-0f31-4d61-b078-5d4d215ebea2", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:45:25.072940+00:00", "event_id": "dc1d61f1-7ae9-435c-965f-f059bb3eae19", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:45:30.922463+00:00", "event_id": "07022937-aaaf-4e1a-afda-1ab9a6cd3751", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:45:36.746897+00:00", "event_id": "3af3f954-45be-45d5-8ff1-f212ffc89548", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:45:42.648315+00:00", "event_id": "5675b920-8e37-42a7-8131-2624d7dca8fd", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:45:48.506814+00:00", "event_id": "8e23b2dc-1070-4bd2-8f2c-49f6adc93f14", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:45:54.360111+00:00", "event_id": "aa8aff65-c090-4cd7-a8e8-e4b1b3634e3b", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:46:00.956140+00:00", "event_id": "b4597fe3-a768-4ae1-9cd5-56703ec1e88e", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:46:07.610426+00:00", "event_id": "754789d2-f38f-4257-ac04-970ae734ead3", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:46:14.181030+00:00", "event_id": "97b58f06-a0b0-4faf-bcee-660cab48514e", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:46:20.779882+00:00", "event_id": "f9d6f875-4b9c-4b05-9f37-a9c6869d8eff", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:46:27.315509+00:00", "event_id": "55783416-a390-4e4e-8372-46ffe806190b", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:46:28.124958+00:00", "event_id": "b170d28f-0bd9-4827-b33f-c7b2c481efcd", "event": "PRIMARY_STABLE", "checks": 6}
+{"timestamp": "2026-10-13T19:46:29.413557+00:00", "event_id": "0d3bdd87-cb55-449f-97da-5c0d3cd9399d", "event": "ROUTE_CHANGE_STARTED", "previous": "router-b", "target": "router-a", "reason": "AUTOMATIC_FAILBACK", "incident_id": null}
+{"timestamp": "2026-10-13T19:46:31.522991+00:00", "event_id": "d816c29b-6bf0-4e3a-8c2e-5a5d7f8f19d4", "event": "ROUTE_CHANGE_SUCCESS", "previous": "router-b", "target": "router-a", "incident_id": null, "duration_ms": 3398}
+{"timestamp": "2026-10-13T19:46:37.193658+00:00", "event_id": "a4b04c76-7bf6-4c78-9708-2ff6c29e635d", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:46:42.876166+00:00", "event_id": "d508c0a7-f9e4-4ab7-8b28-6ae45a579573", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:46:48.528901+00:00", "event_id": "7618e22c-c4af-4e4d-be56-5491afa06624", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:46:54.370132+00:00", "event_id": "ebdda79a-4f46-494a-bde7-19e050f28f06", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:46:59.995621+00:00", "event_id": "19660cda-4452-4395-96ba-ab4ebc221e82", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:47:05.809655+00:00", "event_id": "5bfc4b8c-011f-4fed-8a15-0dea00d82d24", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:47:11.532148+00:00", "event_id": "36575e7b-e33f-413c-af61-231ef82e26a4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:47:17.310710+00:00", "event_id": "1ae30ce2-e459-4e55-9772-7723dee04e59", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:47:23.121383+00:00", "event_id": "0930d98c-6a17-4c13-9dc4-c0b278b8e8d2", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:47:28.823664+00:00", "event_id": "9ed02a7e-bd0b-4253-ad61-ce0a2f747570", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:47:36.530719+00:00", "event_id": "9ceacee3-566c-4ee6-8257-ce1563630365", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 1, "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:47:44.207199+00:00", "event_id": "f9231198-d030-41ff-a156-91edf09a33d5", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 2, "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:47:51.857842+00:00", "event_id": "a7f58341-e490-4184-8f84-a2b89be9e344", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 3, "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:47:51.858397+00:00", "event_id": "248e7bce-0525-430b-94e1-af57ae5060b7", "event": "INCIDENT_CREATED", "incident_id": "b7315149-6709-4d06-b3b4-4dad91c0517c", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:47:53.264879+00:00", "event_id": "0fbdd13f-726f-42bf-8bfb-ebd703e31e3f", "event": "ROUTE_CHANGE_STARTED", "previous": "router-a", "target": "router-b", "reason": "PRIMARY_PATH_FAILURE", "incident_id": "b7315149-6709-4d06-b3b4-4dad91c0517c"}
+{"timestamp": "2026-10-13T19:47:55.469668+00:00", "event_id": "1e09182e-18b2-4209-a7f4-28f6d2008671", "event": "ROUTE_CHANGE_SUCCESS", "previous": "router-a", "target": "router-b", "incident_id": "b7315149-6709-4d06-b3b4-4dad91c0517c", "duration_ms": 3611}
+{"timestamp": "2026-10-13T19:48:01.221682+00:00", "event_id": "a27676cb-25e6-4644-bc2e-92662059d321", "event": "INCIDENT_RESOLVED", "incident_id": "b7315149-6709-4d06-b3b4-4dad91c0517c", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:48:01.223158+00:00", "event_id": "f235590b-8766-43f8-890b-71b6f74fc122", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:48:07.113695+00:00", "event_id": "4d2dc2c8-b509-4dd7-8671-6453bb7ae18d", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:48:12.963949+00:00", "event_id": "d5fe9e6d-5c7c-4566-89c8-1ada28957342", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:48:18.996657+00:00", "event_id": "e3b891f1-aaac-4334-a904-c8c14bf9f410", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:48:24.886594+00:00", "event_id": "684aa170-6fc7-46e1-9c92-9f707e61f9f7", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:48:31.607227+00:00", "event_id": "a68dae2e-1aea-44a8-b066-efda4349f7bf", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:48:38.291726+00:00", "event_id": "09a3168a-55eb-40e1-94fd-d316f646064e", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:48:44.759097+00:00", "event_id": "22b1a2c7-8bdb-4d7b-96ad-9c8085abaecb", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:48:51.147688+00:00", "event_id": "e5b647d3-baa9-4c0a-b7c6-f27181d9702c", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:48:57.697119+00:00", "event_id": "e127a180-903b-4a46-b67c-fb4175570644", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:48:58.532977+00:00", "event_id": "aff32c27-5fed-4c95-9940-31ddf2c9388c", "event": "PRIMARY_STABLE", "checks": 6}
+{"timestamp": "2026-10-13T19:48:59.843446+00:00", "event_id": "796dd4e0-7840-40f4-9002-1e4c682aa3c3", "event": "ROUTE_CHANGE_STARTED", "previous": "router-b", "target": "router-a", "reason": "AUTOMATIC_FAILBACK", "incident_id": null}
+{"timestamp": "2026-10-13T19:49:02.041258+00:00", "event_id": "4a6a2501-7738-4b98-9d3a-0098511344c0", "event": "ROUTE_CHANGE_SUCCESS", "previous": "router-b", "target": "router-a", "incident_id": null, "duration_ms": 3508}
+{"timestamp": "2026-10-13T19:49:07.775102+00:00", "event_id": "567a428c-8a0b-411f-92d6-333d12cf434c", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:49:13.474208+00:00", "event_id": "3a42340c-af05-4a77-aff3-f52515ffcce9", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:49:19.148464+00:00", "event_id": "e20b9fe9-0648-4897-a46d-22b2afd25bbe", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:49:24.901334+00:00", "event_id": "dff2dd0e-0b4c-4c45-9fc7-32768f91a5b3", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:49:30.569155+00:00", "event_id": "df084390-ee31-4b46-b0a1-4b19842eb718", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:49:36.331771+00:00", "event_id": "478b11d0-cbbd-47e6-af02-066e67e538c8", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:49:42.061115+00:00", "event_id": "19e09d15-021e-47ad-bd50-8319341625bb", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:49:47.740012+00:00", "event_id": "b0ed369b-9598-43d8-aca1-0e490469e27f", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:49:55.470936+00:00", "event_id": "55b33789-67d9-4c12-83bf-7c9ef46fbed0", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 1, "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:50:03.190900+00:00", "event_id": "e5d8cba7-e3de-43c6-bccc-0ab94e84a742", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 2, "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:50:10.942826+00:00", "event_id": "5eac48f3-586c-4954-bfbc-b53cf7acc48b", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 3, "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:50:10.943420+00:00", "event_id": "0527d59e-c610-4b31-a5cd-aa6ae0d03994", "event": "INCIDENT_CREATED", "incident_id": "849d430d-2634-4a2e-ac60-78b021593c86", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:50:12.232694+00:00", "event_id": "cdb7b47e-1988-4213-b0e8-5c0b59c73982", "event": "ROUTE_CHANGE_STARTED", "previous": "router-a", "target": "router-b", "reason": "PRIMARY_PATH_FAILURE", "incident_id": "849d430d-2634-4a2e-ac60-78b021593c86"}
+{"timestamp": "2026-10-13T19:50:14.535199+00:00", "event_id": "ca003800-f06b-4cb6-9c2d-121cf2b56ffb", "event": "ROUTE_CHANGE_SUCCESS", "previous": "router-a", "target": "router-b", "incident_id": "849d430d-2634-4a2e-ac60-78b021593c86", "duration_ms": 3591}
+{"timestamp": "2026-10-13T19:50:20.229742+00:00", "event_id": "62e1f63d-76bb-4199-b89f-d05499741583", "event": "INCIDENT_RESOLVED", "incident_id": "849d430d-2634-4a2e-ac60-78b021593c86", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:50:20.230306+00:00", "event_id": "d7dfc1d5-5033-4292-9329-a2c1608ced36", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:50:26.218652+00:00", "event_id": "33f6b74e-42b0-47ff-9d01-4ce5544cfaf1", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:50:32.111653+00:00", "event_id": "be0091da-59e1-4e3c-b713-3f128004abe3", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:50:38.621629+00:00", "event_id": "df80137f-c9aa-4cab-84b0-9f3f63cc5c6f", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:50:45.356126+00:00", "event_id": "c3ac1dea-9d4b-4940-b331-fa9438fb2c48", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:50:51.861211+00:00", "event_id": "f05ed3e5-9391-4703-a41b-d98ba558b551", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:50:58.492099+00:00", "event_id": "7ba91773-9685-4721-a355-02538838dc45", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:51:05.201426+00:00", "event_id": "9c71c96c-26f1-4ecf-9bc3-46c9dd647e74", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:51:06.156963+00:00", "event_id": "9e4853c9-db57-413c-8a79-249772fe7bd2", "event": "PRIMARY_STABLE", "checks": 6}
+{"timestamp": "2026-10-13T19:51:07.599665+00:00", "event_id": "19714166-503f-45c7-bc74-8e9247b84ebb", "event": "ROUTE_CHANGE_STARTED", "previous": "router-b", "target": "router-a", "reason": "AUTOMATIC_FAILBACK", "incident_id": null}
+{"timestamp": "2026-10-13T19:51:09.889913+00:00", "event_id": "2ba53c6c-2bdc-455a-aa14-580db4c1446e", "event": "ROUTE_CHANGE_SUCCESS", "previous": "router-b", "target": "router-a", "incident_id": null, "duration_ms": 3732}
+{"timestamp": "2026-10-13T19:51:15.629209+00:00", "event_id": "3058f322-6958-4350-81d4-eae2d37661dc", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:51:21.222771+00:00", "event_id": "6df53105-c071-4507-9abd-da85d323cab2", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:51:26.930547+00:00", "event_id": "fe504078-1fdd-41e8-b9d6-7d9a06c96d43", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:51:32.591184+00:00", "event_id": "fb1da47c-2305-4497-84a1-6a928dc488bc", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:51:40.278007+00:00", "event_id": "369ba0a6-21cd-42db-8636-bee490317998", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 1, "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:51:47.932200+00:00", "event_id": "db3d41a3-0202-4d5a-bcc1-adb2a79fc65c", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 2, "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:51:55.684929+00:00", "event_id": "fe6735ec-d427-463e-ac49-22afd2b42048", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 3, "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:51:55.685489+00:00", "event_id": "d45d1f98-f37a-45e3-87b6-dd83794e0b52", "event": "INCIDENT_CREATED", "incident_id": "8126a16f-1535-49fa-8507-bb8ec6bd5dd3", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:51:57.034372+00:00", "event_id": "8ebf1147-76df-45a2-9850-bf347007de9a", "event": "ROUTE_CHANGE_STARTED", "previous": "router-a", "target": "router-b", "reason": "PRIMARY_PATH_FAILURE", "incident_id": "8126a16f-1535-49fa-8507-bb8ec6bd5dd3"}
+{"timestamp": "2026-10-13T19:51:59.140779+00:00", "event_id": "84641ac8-7b10-4f4f-8d1b-20988c924819", "event": "ROUTE_CHANGE_SUCCESS", "previous": "router-a", "target": "router-b", "incident_id": "8126a16f-1535-49fa-8507-bb8ec6bd5dd3", "duration_ms": 3455}
+{"timestamp": "2026-10-13T19:52:04.956516+00:00", "event_id": "1824195e-4f7f-4058-8373-84777104d84b", "event": "INCIDENT_RESOLVED", "incident_id": "8126a16f-1535-49fa-8507-bb8ec6bd5dd3", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:52:04.956864+00:00", "event_id": "28a8979a-d76a-4b1b-875c-5903deaac069", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:52:10.837960+00:00", "event_id": "def610af-9ceb-4960-8272-b8b8b3878177", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:52:16.783887+00:00", "event_id": "ebef99a0-80b0-47f9-abba-f2823b3e04af", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:52:22.758422+00:00", "event_id": "6e0a4130-a2d5-4763-9382-c6c0cb191759", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:52:28.598706+00:00", "event_id": "2e369c4e-826e-4fc1-835e-aa4e99ad7892", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:52:34.476403+00:00", "event_id": "71665a7b-97a1-43da-81d9-31a649975252", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:52:40.880407+00:00", "event_id": "0b19b744-1db1-44e2-9a42-0f299126af5b", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:52:47.322397+00:00", "event_id": "6757cf1c-8f46-433b-b72c-67c2cdfa1d40", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:52:54.060609+00:00", "event_id": "65b81e4e-f1e9-4597-93a9-06f9034a6b8a", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:53:00.870587+00:00", "event_id": "3d0c2c97-713c-44a7-b0af-1ec873fb5f65", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:53:07.407865+00:00", "event_id": "bbbd02a6-8d7d-4082-8a98-51f928d141ef", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T19:53:08.210091+00:00", "event_id": "78dc2187-f69b-4ebd-8c84-f4f8ae403602", "event": "PRIMARY_STABLE", "checks": 6}
+{"timestamp": "2026-10-13T19:53:09.634869+00:00", "event_id": "58ecf0a5-2a5a-4305-87de-3808d301141c", "event": "ROUTE_CHANGE_STARTED", "previous": "router-b", "target": "router-a", "reason": "AUTOMATIC_FAILBACK", "incident_id": null}
+{"timestamp": "2026-10-13T19:53:11.790419+00:00", "event_id": "4232f14f-b0e6-4cee-8c40-2fbae063ec3b", "event": "ROUTE_CHANGE_SUCCESS", "previous": "router-b", "target": "router-a", "incident_id": null, "duration_ms": 3580}
+{"timestamp": "2026-10-13T19:53:17.556107+00:00", "event_id": "e1aa762e-fabc-417d-a066-d3abceffe92f", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:53:23.246704+00:00", "event_id": "6a058e23-fb42-46f1-b567-2bbd87a5e76a", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:53:28.981644+00:00", "event_id": "0762ffc2-0b71-4a45-adc2-d68127d971a6", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:53:34.670889+00:00", "event_id": "172eec0d-f7b0-4408-8a30-04e5d8de4962", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:53:40.429609+00:00", "event_id": "47db66c0-9a43-4ee5-9373-41dedb4a9f78", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:53:46.156420+00:00", "event_id": "51f79a49-84eb-4bf1-8073-d103e3135d1d", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:53:51.807635+00:00", "event_id": "7b2c60fd-e8d9-4213-862e-bb684502287e", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T19:53:56.570160+00:00", "event_id": "12852c92-4100-4427-b2c9-3f6921010e37", "event": "NETPILOT_STOPPED"}
+{"timestamp": "2026-10-13T20:02:18.080147+00:00", "event_id": "a4161e90-b0ca-43a8-b028-71a3b8f7086e", "event": "NETPILOT_STARTED", "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:02:18.763962+00:00", "event_id": "f949b00e-b5c3-4a6a-a628-3f73f3a99d2c", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:02:24.488188+00:00", "event_id": "79ebe673-32f4-4a2a-8a81-8344bd919a7a", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:02:30.234790+00:00", "event_id": "9c1a4f07-1a64-4c4d-93bf-8391475b1906", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:02:35.895936+00:00", "event_id": "4373b720-e652-4867-8b42-8ce9bf573af9", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:02:43.582241+00:00", "event_id": "3f2c1977-6a58-4ab4-a194-8fb2b7e93c23", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 1, "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:02:51.248842+00:00", "event_id": "bd418078-2394-462b-a9d2-57ad820568a1", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 2, "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:02:58.973442+00:00", "event_id": "7f1d60b6-9d40-478f-ba8e-299640170b54", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 3, "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:02:58.973899+00:00", "event_id": "f233aa95-7d09-4375-9687-4844cae2da8c", "event": "INCIDENT_CREATED", "incident_id": "78f97b02-b01f-408e-b100-8d01d203716d", "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:02:59.588000+00:00", "event_id": "12978d90-c9b4-4b52-8c41-e75265773291", "event": "TARGET_ROUTER_UNAVAILABLE", "target": "router-b", "incident_id": "78f97b02-b01f-408e-b100-8d01d203716d"}
+{"timestamp": "2026-10-13T20:03:07.262486+00:00", "event_id": "58ed06db-720e-4885-94da-59f95fa775f1", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 4, "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:03:14.919314+00:00", "event_id": "e58fd611-bcab-43f3-98df-62edf29daeb3", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 5, "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:03:22.608496+00:00", "event_id": "0d0c034a-a420-4b67-a391-618c62dbed5a", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 6, "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:03:30.328800+00:00", "event_id": "a28b82b0-d49e-46e2-b5b5-fa13ca1d7b0e", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 7, "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:03:32.531595+00:00", "event_id": "5a6af93b-9740-42a7-b3f4-61f5bd14556b", "event": "NETPILOT_STOPPED"}
+{"timestamp": "2026-10-13T20:15:16.622060+00:00", "event_id": "847734ea-7f62-4fea-ac32-c31855e330d7", "event": "NETPILOT_V3_STARTED", "pending_incident": null}
+{"timestamp": "2026-10-13T20:15:17.521086+00:00", "event_id": "0759535e-f3a8-4571-8d1b-04279279bbe1", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:15:23.469399+00:00", "event_id": "406cf75c-a481-4d7f-acaf-22f0ef86e118", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:15:29.517581+00:00", "event_id": "12aa6a8c-55cc-4dec-8acf-1feb04be971b", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:15:35.465375+00:00", "event_id": "355361ca-c2bc-4481-99f9-c1a9b5f15256", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:15:43.460194+00:00", "event_id": "3ee071e0-0daa-4d3d-9e73-49cf620ef931", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 1, "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:15:51.520780+00:00", "event_id": "e94c5c92-d5ae-4c11-a1df-d9d856cb61f7", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 2, "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:15:59.512001+00:00", "event_id": "a2ae19c1-0756-4c83-b28d-2a9d9de7d605", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 3, "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:15:59.514205+00:00", "event_id": "913a460e-d083-4047-8f5b-e729595fd764", "event": "INCIDENT_CREATED", "incident_id": "d1d122b5-ab4c-4e51-985a-9b0081b4e810", "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:15:59.515113+00:00", "event_id": "969094e8-049c-42e0-b8eb-6422bb078599", "event": "RECOVERY_ATTEMPT", "incident_id": "d1d122b5-ab4c-4e51-985a-9b0081b4e810", "attempt": 1, "current": "router-a", "target": "router-b"}
+{"timestamp": "2026-10-13T20:16:00.862538+00:00", "event_id": "461d2dcd-ec1e-4062-9d4c-3efa9944b20d", "event": "ROUTE_CHANGE_STARTED", "previous": "router-a", "target": "router-b", "reason": "CONNECTIVITY_FAILURE", "incident_id": "d1d122b5-ab4c-4e51-985a-9b0081b4e810"}
+{"timestamp": "2026-10-13T20:16:03.032269+00:00", "event_id": "9fdb8ec6-ca28-4fb2-a5e8-877f9229f7ad", "event": "ROUTE_CHANGE_SUCCESS", "previous": "router-a", "target": "router-b", "reason": "CONNECTIVITY_FAILURE", "incident_id": "d1d122b5-ab4c-4e51-985a-9b0081b4e810", "duration_ms": 2170}
+{"timestamp": "2026-10-13T20:16:03.032723+00:00", "event_id": "5cb14180-20b7-4493-a4c9-8db4b9eb2460", "event": "INCIDENT_RESOLVED", "incident_id": "d1d122b5-ab4c-4e51-985a-9b0081b4e810", "active_router": "router-b", "resolution": "AUTOMATED_RECOVERY"}
+{"timestamp": "2026-10-13T20:16:11.159441+00:00", "event_id": "0dcc3eaf-2906-4ba6-a29c-f0b1d503b027", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 1, "active_router": "router-b"}
+{"timestamp": "2026-10-13T20:16:19.220555+00:00", "event_id": "66f1f246-505e-4b02-88cf-af3158155db0", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 2, "active_router": "router-b"}
+{"timestamp": "2026-10-13T20:16:27.279966+00:00", "event_id": "3c3958fd-821c-4a8c-81d2-05bc34fcd6cc", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 3, "active_router": "router-b"}
+{"timestamp": "2026-10-13T20:16:27.281751+00:00", "event_id": "2fb81471-24a0-4a00-9b6f-efb48507a59b", "event": "INCIDENT_CREATED", "incident_id": "badfbffc-b220-4895-8db0-9d09f8ba2959", "active_router": "router-b"}
+{"timestamp": "2026-10-13T20:16:27.283130+00:00", "event_id": "32d63f41-619d-4527-9ec9-b9a31c09a73a", "event": "RECOVERY_ATTEMPT", "incident_id": "badfbffc-b220-4895-8db0-9d09f8ba2959", "attempt": 1, "current": "router-b", "target": "router-a"}
+{"timestamp": "2026-10-13T20:16:27.920623+00:00", "event_id": "822f8dea-8506-44fd-9f0c-6581e21213b2", "event": "TARGET_ROUTER_UNAVAILABLE", "target": "router-a", "incident_id": "badfbffc-b220-4895-8db0-9d09f8ba2959"}
+{"timestamp": "2026-10-13T20:16:27.921634+00:00", "event_id": "752119e5-4a5f-42e2-b2ca-58a6ff0bce96", "event": "INCIDENT_DEGRADED", "incident_id": "badfbffc-b220-4895-8db0-9d09f8ba2959", "recovery_attempts": 1}
+{"timestamp": "2026-10-13T20:16:27.921899+00:00", "event_id": "2dc26db1-5f9b-4343-850f-50a20e912ed9", "event": "RECOVERY_RETRY_SCHEDULED", "incident_id": "badfbffc-b220-4895-8db0-9d09f8ba2959", "delay_seconds": 30}
+{"timestamp": "2026-10-13T20:16:35.859692+00:00", "event_id": "d556c6f8-363b-4670-b4ab-74e8e39a7c48", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 4, "active_router": "router-b"}
+{"timestamp": "2026-10-13T20:16:43.846770+00:00", "event_id": "a13ad53a-5774-4554-8c75-5a0c378c93bf", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 5, "active_router": "router-b"}
+{"timestamp": "2026-10-13T20:16:51.751109+00:00", "event_id": "4ca3de9e-3958-4fdb-9816-da7f23bc7831", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 6, "active_router": "router-b"}
+{"timestamp": "2026-10-13T20:16:57.659492+00:00", "event_id": "e60f8e71-6ca0-4e01-b9b5-987527889f1b", "event": "INCIDENT_RESOLVED", "incident_id": "badfbffc-b220-4895-8db0-9d09f8ba2959", "active_router": "router-b", "resolution": "CONNECTIVITY_RESTORED"}
+{"timestamp": "2026-10-13T20:16:57.660297+00:00", "event_id": "454266e4-759b-4a55-9869-62520534c882", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T20:17:03.797845+00:00", "event_id": "5d893cc6-a208-4584-8a57-24c27b82d762", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T20:17:09.923710+00:00", "event_id": "430f9e3f-0db2-42ff-ab44-3aaa7f946a0f", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T20:17:16.018551+00:00", "event_id": "234c813e-7e23-41df-a91a-5dbfe2dda05f", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T20:17:22.141665+00:00", "event_id": "8b62b7e1-f9db-4b1e-bb81-78c49fa2b415", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T20:17:28.256987+00:00", "event_id": "4bb6628d-0463-4fb6-9f97-d8307c974cf8", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T20:17:34.450254+00:00", "event_id": "6981259f-9eee-447c-8c23-df6322f5f2e0", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T20:17:40.615821+00:00", "event_id": "ab8a3b35-40ba-4303-bfe6-604d9f5be2fe", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T20:17:46.694686+00:00", "event_id": "6f798b4b-199a-42f6-9761-ab0eab30954e", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T20:17:52.888514+00:00", "event_id": "0b1d2f7c-9d40-4053-ac77-9ad18d0c1864", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T20:17:58.999108+00:00", "event_id": "76d383ac-fe7c-46c9-892c-523b0ed528bc", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T20:18:05.850757+00:00", "event_id": "a1b60567-58f1-469c-a77f-0e865e1e2814", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T20:18:12.753196+00:00", "event_id": "ed24d267-62bc-46c2-bd6d-683fc6155af7", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T20:18:19.518295+00:00", "event_id": "24ddecbe-d83c-4b81-a6f4-eed1958fc6e8", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T20:18:26.420884+00:00", "event_id": "fd119725-b856-4158-917e-0b61b7c8841b", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T20:18:33.286044+00:00", "event_id": "0f4d66e1-ccbb-4f5c-b50a-2db7c93924a8", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T20:18:34.164159+00:00", "event_id": "c7a64857-db3c-45f9-94bf-100971241562", "event": "PRIMARY_STABLE", "checks": 6}
+{"timestamp": "2026-10-13T20:18:35.365592+00:00", "event_id": "debfca7e-d812-41e0-be92-2e5a6e82e15e", "event": "ROUTE_CHANGE_STARTED", "previous": "router-b", "target": "router-a", "reason": "AUTOMATIC_FAILBACK", "incident_id": null}
+{"timestamp": "2026-10-13T20:18:37.660827+00:00", "event_id": "9a08c265-b21f-461f-90c1-e0b348fddf39", "event": "ROUTE_CHANGE_SUCCESS", "previous": "router-b", "target": "router-a", "reason": "AUTOMATIC_FAILBACK", "incident_id": null, "duration_ms": 2295}
+{"timestamp": "2026-10-13T20:18:37.661250+00:00", "event_id": "56a90992-4f69-4b78-9c2c-3d6079e6d09c", "event": "FAILBACK_RESULT", "successful": true}
+{"timestamp": "2026-10-13T20:18:43.645457+00:00", "event_id": "4680cb6c-6bd8-4542-8795-b39259213987", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:18:49.696591+00:00", "event_id": "729b3a62-ceea-44a9-bbd0-cf63fe9c846e", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:18:51.251708+00:00", "event_id": "1cbc305d-bf79-442d-9dd3-0824f0484c96", "event": "NETPILOT_V3_STOPPED", "pending_incident": null}
+{"timestamp": "2026-10-13T20:28:49.309440+00:00", "event_id": "18595b2e-de81-415e-a366-d28ff9b5c4a2", "event": "NETPILOT_V3_STARTED", "pending_incident": null}
+{"timestamp": "2026-10-13T20:28:50.327299+00:00", "event_id": "01bd6da7-2c4c-4ccf-9df1-664502c52462", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:28:56.296456+00:00", "event_id": "c791b553-1209-485a-8f30-0d387fca55ea", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:29:02.424472+00:00", "event_id": "0b399d52-4043-48c2-ba5b-48c98e3bc3bd", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:29:08.416531+00:00", "event_id": "16071f73-5b77-41cb-99d4-5c9b9a9c2407", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:29:16.405780+00:00", "event_id": "18f8726a-7c3e-4893-bc4e-b4baa490e2e2", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 1, "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:29:24.568821+00:00", "event_id": "3932f29e-e007-4ac8-98d0-a6cbeb3b5fc1", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 2, "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:29:32.552078+00:00", "event_id": "06dbc128-d324-4b8e-927a-4810d9f41568", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 3, "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:29:32.554071+00:00", "event_id": "d59a9c0d-0ade-4ba9-a5a7-1a8c6bac71fa", "event": "INCIDENT_CREATED", "incident_id": "e77f6a2e-c9ed-4e89-9282-006ba1b7bd37", "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:29:32.555581+00:00", "event_id": "946f7a96-84d2-48e7-9045-164034d75c93", "event": "RECOVERY_ATTEMPT", "incident_id": "e77f6a2e-c9ed-4e89-9282-006ba1b7bd37", "attempt": 1, "current": "router-a", "target": "router-b"}
+{"timestamp": "2026-10-13T20:29:33.193261+00:00", "event_id": "99149872-19a3-4d0e-99b8-00c07293da85", "event": "TARGET_ROUTER_UNAVAILABLE", "target": "router-b", "incident_id": "e77f6a2e-c9ed-4e89-9282-006ba1b7bd37"}
+{"timestamp": "2026-10-13T20:29:33.194010+00:00", "event_id": "83b83c8a-66e2-4372-b652-f01721410586", "event": "INCIDENT_DEGRADED", "incident_id": "e77f6a2e-c9ed-4e89-9282-006ba1b7bd37", "recovery_attempts": 1}
+{"timestamp": "2026-10-13T20:29:33.194198+00:00", "event_id": "3d92ca48-619e-4cf9-be5b-8fb6461d2b9a", "event": "RECOVERY_RETRY_SCHEDULED", "incident_id": "e77f6a2e-c9ed-4e89-9282-006ba1b7bd37", "delay_seconds": 30}
+{"timestamp": "2026-10-13T20:29:41.183655+00:00", "event_id": "5938b2fc-446c-443c-af22-e0b1b2a38bd4", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 4, "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:29:49.298977+00:00", "event_id": "5409129f-d494-4c47-9443-e7528a7a8311", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 5, "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:29:57.309185+00:00", "event_id": "2ab0a054-7b1a-4a7b-98d3-a6719b997baa", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 6, "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:30:05.326627+00:00", "event_id": "8b3fc65c-ce41-47a3-b1a2-b04a70f0304c", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 7, "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:30:05.328727+00:00", "event_id": "77b3bec8-5838-4b63-9ac6-1701e0e555aa", "event": "RECOVERY_ATTEMPT", "incident_id": "e77f6a2e-c9ed-4e89-9282-006ba1b7bd37", "attempt": 2, "current": "router-a", "target": "router-b"}
+{"timestamp": "2026-10-13T20:30:06.050766+00:00", "event_id": "d186afab-e58d-4d29-b044-76b8f4cbcda6", "event": "TARGET_ROUTER_UNAVAILABLE", "target": "router-b", "incident_id": "e77f6a2e-c9ed-4e89-9282-006ba1b7bd37"}
+{"timestamp": "2026-10-13T20:30:06.052196+00:00", "event_id": "7b79d6a8-306f-445e-a588-c0bca8f7282b", "event": "INCIDENT_DEGRADED", "incident_id": "e77f6a2e-c9ed-4e89-9282-006ba1b7bd37", "recovery_attempts": 2}
+{"timestamp": "2026-10-13T20:30:06.052529+00:00", "event_id": "63f5ad4a-174e-4ebd-a798-a66975a9e262", "event": "RECOVERY_RETRY_SCHEDULED", "incident_id": "e77f6a2e-c9ed-4e89-9282-006ba1b7bd37", "delay_seconds": 30}
+{"timestamp": "2026-10-13T20:30:14.102035+00:00", "event_id": "2f3a109b-01ad-4360-953c-56caefa655a4", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 8, "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:30:22.119130+00:00", "event_id": "b4e78c79-c3f4-4277-96af-692b0f736f14", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 9, "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:30:30.054413+00:00", "event_id": "c53818ef-4510-4d6f-8d25-0f391bedbf81", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 10, "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:30:38.095729+00:00", "event_id": "d5107699-a0f7-4392-aa2c-53d71b734394", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 11, "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:30:38.097025+00:00", "event_id": "75945c14-6710-4767-81cf-80f4a5fdd326", "event": "RECOVERY_ATTEMPT", "incident_id": "e77f6a2e-c9ed-4e89-9282-006ba1b7bd37", "attempt": 3, "current": "router-a", "target": "router-b"}
+{"timestamp": "2026-10-13T20:30:38.723077+00:00", "event_id": "40c94e63-a128-4b1e-b512-09e4c92fcfc4", "event": "TARGET_ROUTER_UNAVAILABLE", "target": "router-b", "incident_id": "e77f6a2e-c9ed-4e89-9282-006ba1b7bd37"}
+{"timestamp": "2026-10-13T20:30:38.723862+00:00", "event_id": "0a05de83-ffcd-446c-8bad-c55b040e5983", "event": "INCIDENT_DEGRADED", "incident_id": "e77f6a2e-c9ed-4e89-9282-006ba1b7bd37", "recovery_attempts": 3}
+{"timestamp": "2026-10-13T20:30:38.724069+00:00", "event_id": "308821c6-d506-461d-a400-da333250497c", "event": "RECOVERY_RETRY_SCHEDULED", "incident_id": "e77f6a2e-c9ed-4e89-9282-006ba1b7bd37", "delay_seconds": 30}
+{"timestamp": "2026-10-13T20:30:46.638144+00:00", "event_id": "0056cdeb-86f9-4a25-8bd5-4d07cc60f7de", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 12, "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:30:54.564564+00:00", "event_id": "e2c6cb79-51f3-4faf-ac99-287859a01543", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 13, "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:31:02.656038+00:00", "event_id": "81ef94c5-02d2-411e-b558-0cc0325e99a7", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 14, "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:31:10.679941+00:00", "event_id": "6c935410-3f80-4355-bfde-088858c1595f", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 15, "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:31:10.681588+00:00", "event_id": "3f902177-8c8c-4a2b-9c43-60df5f8ec6a7", "event": "RECOVERY_ATTEMPT", "incident_id": "e77f6a2e-c9ed-4e89-9282-006ba1b7bd37", "attempt": 4, "current": "router-a", "target": "router-b"}
+{"timestamp": "2026-10-13T20:31:11.307844+00:00", "event_id": "d1deadd2-6924-4903-b819-2b81248cfffc", "event": "TARGET_ROUTER_UNAVAILABLE", "target": "router-b", "incident_id": "e77f6a2e-c9ed-4e89-9282-006ba1b7bd37"}
+{"timestamp": "2026-10-13T20:31:11.309232+00:00", "event_id": "f5be4742-59a6-41b8-9c15-6be01a16f9ef", "event": "INCIDENT_DEGRADED", "incident_id": "e77f6a2e-c9ed-4e89-9282-006ba1b7bd37", "recovery_attempts": 4}
+{"timestamp": "2026-10-13T20:31:11.309664+00:00", "event_id": "0940c4c9-6047-428b-95eb-fcdec8b9cd5d", "event": "RECOVERY_RETRY_SCHEDULED", "incident_id": "e77f6a2e-c9ed-4e89-9282-006ba1b7bd37", "delay_seconds": 30}
+{"timestamp": "2026-10-13T20:31:19.237441+00:00", "event_id": "0d4412bb-0838-4f9c-850c-96fc73ba15fb", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 16, "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:31:27.253599+00:00", "event_id": "8d6ee4a1-b5db-44e1-8496-0ee42e7ecad2", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 17, "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:31:35.172003+00:00", "event_id": "d92b910d-c9f0-494e-9076-33eb72a8d910", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 18, "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:31:43.143065+00:00", "event_id": "3d6c406e-0d43-4b9e-a69f-ee3a76163739", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 19, "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:31:43.144021+00:00", "event_id": "935584e8-f176-4e58-b396-595e526055db", "event": "RECOVERY_ATTEMPT", "incident_id": "e77f6a2e-c9ed-4e89-9282-006ba1b7bd37", "attempt": 5, "current": "router-a", "target": "router-b"}
+{"timestamp": "2026-10-13T20:31:43.745295+00:00", "event_id": "5414a79c-cc15-46eb-aebb-a3dbc59a4de9", "event": "TARGET_ROUTER_UNAVAILABLE", "target": "router-b", "incident_id": "e77f6a2e-c9ed-4e89-9282-006ba1b7bd37"}
+{"timestamp": "2026-10-13T20:31:43.746037+00:00", "event_id": "2a67331b-32a5-4189-a50a-f7b6b4825e12", "event": "INCIDENT_DEGRADED", "incident_id": "e77f6a2e-c9ed-4e89-9282-006ba1b7bd37", "recovery_attempts": 5}
+{"timestamp": "2026-10-13T20:31:43.746220+00:00", "event_id": "20b8a1d3-bf43-43a3-b668-1db8900bca57", "event": "RECOVERY_RETRY_SCHEDULED", "incident_id": "e77f6a2e-c9ed-4e89-9282-006ba1b7bd37", "delay_seconds": 30}
+{"timestamp": "2026-10-13T20:31:51.762763+00:00", "event_id": "5036bccb-bc26-4425-a852-458a2a6607ce", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 20, "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:31:59.649638+00:00", "event_id": "f7b09cf8-1a6c-4646-b027-c3b6041ac0ba", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 21, "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:32:07.850283+00:00", "event_id": "2abf4f2c-fa7a-452c-806d-b4dcf0e820bb", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 22, "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:32:15.858930+00:00", "event_id": "3442f9ac-60f3-45de-aeb4-1b3ca40dbd80", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 23, "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:32:15.860274+00:00", "event_id": "d682ffd8-0a6c-4e7f-965e-89874c9b0ddb", "event": "RECOVERY_ATTEMPT", "incident_id": "e77f6a2e-c9ed-4e89-9282-006ba1b7bd37", "attempt": 6, "current": "router-a", "target": "router-b"}
+{"timestamp": "2026-10-13T20:32:16.483632+00:00", "event_id": "f8ed4146-16ad-438a-b7f5-a617a45bf79b", "event": "TARGET_ROUTER_UNAVAILABLE", "target": "router-b", "incident_id": "e77f6a2e-c9ed-4e89-9282-006ba1b7bd37"}
+{"timestamp": "2026-10-13T20:32:16.484489+00:00", "event_id": "7c2a5ac5-7c61-46d5-ae8e-339d524fc107", "event": "INCIDENT_DEGRADED", "incident_id": "e77f6a2e-c9ed-4e89-9282-006ba1b7bd37", "recovery_attempts": 6}
+{"timestamp": "2026-10-13T20:32:16.484693+00:00", "event_id": "e1791e81-b04e-4dc4-a63b-27e6629b2d47", "event": "RECOVERY_RETRY_SCHEDULED", "incident_id": "e77f6a2e-c9ed-4e89-9282-006ba1b7bd37", "delay_seconds": 30}
+{"timestamp": "2026-10-13T20:32:24.514422+00:00", "event_id": "89812166-504e-4e7b-b02c-9686ac70884c", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 24, "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:32:32.741962+00:00", "event_id": "81b629e8-a89f-4ac8-aa4a-342a0675aa45", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 25, "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:32:40.795342+00:00", "event_id": "e4c9a704-7358-4eca-af3d-39663770f56a", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 26, "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:32:48.847775+00:00", "event_id": "3378e5e4-cb1b-4ecb-a555-77027dfff59d", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 27, "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:32:48.849075+00:00", "event_id": "8ba65429-45a4-421a-a4f6-fa0fe7ad1742", "event": "RECOVERY_ATTEMPT", "incident_id": "e77f6a2e-c9ed-4e89-9282-006ba1b7bd37", "attempt": 7, "current": "router-a", "target": "router-b"}
+{"timestamp": "2026-10-13T20:32:50.319280+00:00", "event_id": "a3797cf6-edac-48d1-a012-8d598aeb0816", "event": "ROUTE_CHANGE_STARTED", "previous": "router-a", "target": "router-b", "reason": "CONNECTIVITY_FAILURE", "incident_id": "e77f6a2e-c9ed-4e89-9282-006ba1b7bd37"}
+{"timestamp": "2026-10-13T20:32:52.391384+00:00", "event_id": "2464663d-5b6e-4503-97a0-d75a32ad7b33", "event": "ROUTE_CHANGE_SUCCESS", "previous": "router-a", "target": "router-b", "reason": "CONNECTIVITY_FAILURE", "incident_id": "e77f6a2e-c9ed-4e89-9282-006ba1b7bd37", "duration_ms": 2072}
+{"timestamp": "2026-10-13T20:32:52.391714+00:00", "event_id": "8347e92c-2089-4e6b-a54a-4da6f5700c86", "event": "INCIDENT_RESOLVED", "incident_id": "e77f6a2e-c9ed-4e89-9282-006ba1b7bd37", "active_router": "router-b", "resolution": "AUTOMATED_RECOVERY"}
+{"timestamp": "2026-10-13T20:32:58.383519+00:00", "event_id": "de89a8ba-a7be-475a-b53c-b3cf93c2553f", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T20:33:04.517592+00:00", "event_id": "db043305-3af1-4fc3-8772-198f15c69b86", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T20:33:10.652026+00:00", "event_id": "3c32c41e-944a-4f08-8294-daf64e0d75d5", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T20:33:16.903793+00:00", "event_id": "2b2ce271-5d32-4ce4-9cf9-dc09256f40bc", "event": "NETPILOT_V3_STOPPED", "pending_incident": null}
+{"timestamp": "2026-10-13T20:55:27.041925+00:00", "event_id": "86a3c025-8c79-4c7a-beeb-e7ca995c2efa", "version": "v4", "event": "NETPILOT_V4_STARTED", "pending_incident": null}
+{"timestamp": "2026-10-13T20:55:28.421098+00:00", "event_id": "97d8099f-28cd-4807-b17f-515faa57bc2a", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:55:34.702842+00:00", "event_id": "1c78fb43-4597-417f-a049-d34f92c003a2", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:55:40.832933+00:00", "event_id": "cf872c6a-987f-45ed-93f4-26fe44f83c99", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:55:46.973614+00:00", "event_id": "f86433d8-d308-44d9-b6ba-dadfe85a1df4", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:55:53.321137+00:00", "event_id": "d045555c-c1c7-41ce-b9e7-e3089e62bb5e", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:56:01.643325+00:00", "event_id": "c41bcf2f-f33a-4d1e-abbd-5fe2adbef856", "version": "v4", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 1, "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:56:09.835326+00:00", "event_id": "263e9b96-ba5b-4dbf-8bb6-3434000c0a16", "version": "v4", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 2, "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:56:17.958386+00:00", "event_id": "e32fe94f-51a7-427e-abf3-0fd0a447d584", "version": "v4", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 3, "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:56:17.981383+00:00", "event_id": "a26b7b96-741d-428e-92a3-d12c3791b1d7", "version": "v4", "event": "INCIDENT_CREATED", "incident_id": "44d27235-1267-4605-863b-3b11cb00f3f1", "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:56:19.687192+00:00", "event_id": "eb016c9d-f5f5-49fd-92b2-3ce028c3cc10", "version": "v4", "event": "FAULT_DIAGNOSED", "incident_id": "44d27235-1267-4605-863b-3b11cb00f3f1", "fault_type": "ACTIVE_ROUTER_DOWN", "action": "FAILOVER", "target": "router-b"}
+{"timestamp": "2026-10-13T20:56:19.688387+00:00", "event_id": "27c75f75-1877-48e0-94a2-8a2f212c50b7", "version": "v4", "event": "RECOVERY_ATTEMPT", "incident_id": "44d27235-1267-4605-863b-3b11cb00f3f1", "attempt": 1, "current": "router-a", "target": "router-b"}
+{"timestamp": "2026-10-13T20:56:24.400754+00:00", "event_id": "d69f5ffc-5f2a-4fd0-9d73-73da14f8bd7a", "version": "v4", "event": "ROUTE_CHANGE_STARTED", "previous": "router-a", "target": "router-b", "reason": "ACTIVE_ROUTER_DOWN", "incident_id": "44d27235-1267-4605-863b-3b11cb00f3f1"}
+{"timestamp": "2026-10-13T20:56:26.262750+00:00", "event_id": "b80745b7-8c1d-4030-9618-4fd2e1cb8fa3", "version": "v4", "event": "ROUTE_CHANGE_SUCCESS", "previous": "router-a", "target": "router-b", "reason": "ACTIVE_ROUTER_DOWN", "incident_id": "44d27235-1267-4605-863b-3b11cb00f3f1", "duration_ms": 1862}
+{"timestamp": "2026-10-13T20:56:27.529711+00:00", "event_id": "6dca55b4-eb94-4d7c-ba46-d2a9b0f653c2", "version": "v4", "event": "INCIDENT_RESOLVED", "incident_id": "44d27235-1267-4605-863b-3b11cb00f3f1", "active_router": "router-b", "resolution": "AUTOMATED_RECOVERY"}
+{"timestamp": "2026-10-13T20:56:33.867755+00:00", "event_id": "93acb3bb-72c6-4a82-9f96-3171e88ae0f0", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T20:56:40.187624+00:00", "event_id": "ad0249cb-5d49-4459-b6fe-9f5b00b3df6a", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T20:56:46.759592+00:00", "event_id": "ae33ce68-2583-4aab-9d9c-8a1976e2df23", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T20:56:53.207735+00:00", "event_id": "6f4f98f5-1533-4260-a0ed-0c4ddb94bc01", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T20:56:59.573787+00:00", "event_id": "faf70f7f-ff0d-4305-992a-fb530e0cc634", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T20:57:06.033438+00:00", "event_id": "39186609-2251-4fba-9f5c-eb1478fa067a", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T20:57:12.489008+00:00", "event_id": "3a361a30-a0e0-42bc-9209-0469fe809188", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T20:57:18.864947+00:00", "event_id": "b249c3a2-fb6f-435f-b935-b36a3d5dd796", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T20:57:25.266220+00:00", "event_id": "772ab478-fb20-4839-86be-849540660b37", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T20:57:33.000867+00:00", "event_id": "429e74ea-b465-47aa-8b0c-656db21857d9", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T20:57:40.497576+00:00", "event_id": "64c58b15-1cd1-4163-87ba-561453a2e5f5", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T20:57:47.950744+00:00", "event_id": "29b1c88c-24d8-47f7-bd3e-0d4e3abeccbc", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T20:57:55.599126+00:00", "event_id": "ff3edc97-8072-46ba-b320-954d22d71f3b", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T20:58:03.341360+00:00", "event_id": "5e6d74eb-6de3-46a9-939e-e1ef96dac036", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-13T20:58:04.857013+00:00", "event_id": "5fe10b05-a62d-48dc-99aa-102e67b16ce9", "version": "v4", "event": "PRIMARY_STABLE", "checks": 6}
+{"timestamp": "2026-10-13T20:58:07.840927+00:00", "event_id": "40a65291-9462-41ae-84ee-e9324f1c46e5", "version": "v4", "event": "ROUTE_CHANGE_STARTED", "previous": "router-b", "target": "router-a", "reason": "AUTOMATIC_FAILBACK", "incident_id": null}
+{"timestamp": "2026-10-13T20:58:09.535677+00:00", "event_id": "52d2c098-5ebf-4ff8-a8b4-794da64e8538", "version": "v4", "event": "ROUTE_CHANGE_SUCCESS", "previous": "router-b", "target": "router-a", "reason": "AUTOMATIC_FAILBACK", "incident_id": null, "duration_ms": 1695}
+{"timestamp": "2026-10-13T20:58:09.536138+00:00", "event_id": "c826109e-1968-4cc6-aa2f-4be9692cf071", "version": "v4", "event": "FAILBACK_RESULT", "successful": true}
+{"timestamp": "2026-10-13T20:58:15.974581+00:00", "event_id": "4aec954a-ff45-4c0d-849d-c40dcb52a70b", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:58:22.204828+00:00", "event_id": "ba193c56-28c3-43ac-aa58-8337bc19a199", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:58:28.242880+00:00", "event_id": "d6ff5bb0-c95f-4cd0-bd10-b93f102ae84f", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:58:34.364279+00:00", "event_id": "e61937c8-4a01-4eb4-8eeb-573e5be4afea", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T20:58:35.879930+00:00", "event_id": "61cd4072-7d24-4c31-b30d-0fb46650a1fb", "version": "v4", "event": "NETPILOT_V4_STOPPED", "pending_incident": null}
+{"timestamp": "2026-10-13T21:03:46.810418+00:00", "event_id": "beec39dc-5cf8-48f1-a71f-365069422f8f", "version": "v4", "event": "NETPILOT_V4_STARTED", "pending_incident": null}
+{"timestamp": "2026-10-13T21:03:48.100599+00:00", "event_id": "e7e9b275-dd91-47c2-a0c1-b83c0afc9428", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T21:03:54.266305+00:00", "event_id": "18d50359-6f29-4789-8b9f-68d58f0e4d9a", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T21:04:00.541412+00:00", "event_id": "995c4b1b-993b-4a1c-a209-a926f66a39e2", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T21:04:06.735360+00:00", "event_id": "e5b5e849-36f6-411d-beac-c4530df99cfb", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T21:04:14.982785+00:00", "event_id": "281d6c96-e94a-45a6-b657-1bd53b259ae8", "version": "v4", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 1, "active_router": "router-a"}
+{"timestamp": "2026-10-13T21:04:20.595889+00:00", "event_id": "62194bd9-0c51-4f8f-8e94-9c0cf129ec92", "version": "v4", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 2, "active_router": "inconsistent"}
+{"timestamp": "2026-10-13T21:04:26.143326+00:00", "event_id": "7495f853-1a23-4429-85a0-74b7099f24b3", "version": "v4", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 3, "active_router": "inconsistent"}
+{"timestamp": "2026-10-13T21:04:26.144968+00:00", "event_id": "b44b0135-82f2-4a5d-ab4e-f389b5f33f40", "version": "v4", "event": "INCIDENT_CREATED", "incident_id": "75b3ab46-a558-4d0a-a747-7082f8e7a643", "active_router": "inconsistent"}
+{"timestamp": "2026-10-13T21:04:26.145300+00:00", "event_id": "a7f51549-9ce5-4b47-85f8-aa068987963d", "version": "v4", "event": "FAULT_DIAGNOSED", "incident_id": "75b3ab46-a558-4d0a-a747-7082f8e7a643", "fault_type": "SERVER_UNAVAILABLE", "action": "ALERT_ONLY", "target": null}
+{"timestamp": "2026-10-13T21:04:26.146119+00:00", "event_id": "8bd3f439-039c-4a56-ac1a-6427612589ff", "version": "v4", "event": "MANUAL_REVIEW_REQUIRED", "incident_id": "75b3ab46-a558-4d0a-a747-7082f8e7a643", "reason": "SERVER_UNAVAILABLE"}
+{"timestamp": "2026-10-13T21:04:26.146924+00:00", "event_id": "b8d6c7fb-a588-4eea-8c53-4b0b4b17f994", "version": "v4", "event": "INCIDENT_DEGRADED", "incident_id": "75b3ab46-a558-4d0a-a747-7082f8e7a643", "recovery_attempts": 1, "fault_type": "SERVER_UNAVAILABLE"}
+{"timestamp": "2026-10-13T21:04:26.147245+00:00", "event_id": "b6f80555-253b-429e-8705-12ccc0f21b23", "version": "v4", "event": "RECOVERY_RETRY_SCHEDULED", "incident_id": "75b3ab46-a558-4d0a-a747-7082f8e7a643", "delay_seconds": 30}
+{"timestamp": "2026-10-13T21:04:31.893097+00:00", "event_id": "5d533879-dba2-4e58-ac7c-2b56f1a956c2", "version": "v4", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 4, "active_router": "inconsistent"}
+{"timestamp": "2026-10-13T21:04:37.529352+00:00", "event_id": "9c2cd879-a171-4062-82e6-e1ee16930ac8", "version": "v4", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 5, "active_router": "inconsistent"}
+{"timestamp": "2026-10-13T21:04:43.264009+00:00", "event_id": "069fdfd4-193a-42f7-8759-88447122bab8", "version": "v4", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 6, "active_router": "inconsistent"}
+{"timestamp": "2026-10-13T21:04:48.911349+00:00", "event_id": "85a7878f-c7a4-41de-83c9-879d8c4157a3", "version": "v4", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 7, "active_router": "inconsistent"}
+{"timestamp": "2026-10-13T21:04:54.684698+00:00", "event_id": "736b508b-e961-4062-b890-ae9b29184c52", "version": "v4", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 8, "active_router": "inconsistent"}
+{"timestamp": "2026-10-13T21:04:55.967128+00:00", "event_id": "7746785a-158b-4afe-8869-696ea6bce5d0", "version": "v4", "event": "NETPILOT_V4_STOPPED", "pending_incident": "75b3ab46-a558-4d0a-a747-7082f8e7a643"}
+{"timestamp": "2026-10-13T21:09:23.820817+00:00", "event_id": "56ae5454-52a2-424c-878d-3ba462a91a90", "version": "v4", "event": "NETPILOT_V4_STARTED", "pending_incident": "75b3ab46-a558-4d0a-a747-7082f8e7a643"}
+{"timestamp": "2026-10-13T21:09:25.184795+00:00", "event_id": "e208f32c-c9bb-4ee5-ba77-d6a9241f0c3a", "version": "v4", "event": "INCIDENT_RESOLVED", "incident_id": "75b3ab46-a558-4d0a-a747-7082f8e7a643", "active_router": "router-a", "resolution": "CONNECTIVITY_RESTORED"}
+{"timestamp": "2026-10-13T21:09:25.186092+00:00", "event_id": "4afad881-e08b-4413-9cee-b9f6651fc623", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T21:09:28.448323+00:00", "event_id": "e1459606-ca41-4888-9987-7645f10219cf", "version": "v4", "event": "NETPILOT_V4_STOPPED", "pending_incident": null}
+{"timestamp": "2026-10-13T21:15:49.290075+00:00", "event_id": "6be5690f-6444-49ac-a60f-261a0ffd29fa", "version": "v4", "event": "NETPILOT_V4_STARTED", "pending_incident": null}
+{"timestamp": "2026-10-13T21:15:50.632712+00:00", "event_id": "2ab9c809-9ff0-4418-a9b7-afd80786609b", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "inconsistent"}
+{"timestamp": "2026-10-13T21:15:50.633243+00:00", "event_id": "8d421b9d-db5a-4134-b1e2-5ef412fb57b4", "version": "v4", "event": "ROUTE_MISMATCH_DETECTED", "action": "ALERT_ONLY", "client_gateway": "10.66.1.2", "server_gateway": "10.66.2.3"}
+{"timestamp": "2026-10-13T21:15:56.979230+00:00", "event_id": "19a04c58-9e2b-4345-90e5-74079168da18", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "inconsistent"}
+{"timestamp": "2026-10-13T21:16:03.292195+00:00", "event_id": "888fefe4-9c78-4fc3-95a4-69c0f15f7197", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "inconsistent"}
+{"timestamp": "2026-10-13T21:16:09.696072+00:00", "event_id": "226858b5-7e74-43b9-ac8e-f13df2d073c9", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "inconsistent"}
+{"timestamp": "2026-10-13T21:16:15.808892+00:00", "event_id": "55d02454-6b30-4fcd-8eb0-25d7a3bd055c", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "inconsistent"}
+{"timestamp": "2026-10-13T21:16:16.821470+00:00", "event_id": "bcc21795-aeb5-417d-9d95-3b981cd83bf1", "version": "v4", "event": "NETPILOT_V4_STOPPED", "pending_incident": null}
+{"timestamp": "2026-10-13T21:18:52.095233+00:00", "event_id": "a05da6fd-2426-4906-9908-667cbc7501a8", "version": "v4", "event": "NETPILOT_V4_STARTED", "pending_incident": null}
+{"timestamp": "2026-10-13T21:18:55.480954+00:00", "event_id": "40e18b2b-518d-4a90-acd7-346cbe9481fe", "version": "v4", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 1, "active_router": "inconsistent"}
+{"timestamp": "2026-10-13T21:19:03.621377+00:00", "event_id": "49df1918-8109-412d-9423-3359c3442d6c", "version": "v4", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 2, "active_router": "inconsistent"}
+{"timestamp": "2026-10-13T21:19:11.754948+00:00", "event_id": "24217ec5-da5e-4af9-99e4-63f7c6348d04", "version": "v4", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 3, "active_router": "inconsistent"}
+{"timestamp": "2026-10-13T21:19:11.755989+00:00", "event_id": "03c2b462-fb28-46c9-90af-47133c105270", "version": "v4", "event": "INCIDENT_CREATED", "incident_id": "18048b6d-7bf7-4fcd-bded-5c2ee57e08cf", "active_router": "inconsistent"}
+{"timestamp": "2026-10-13T21:19:13.259053+00:00", "event_id": "a0373b9b-aceb-47f4-bc88-a1545afe5a62", "version": "v4", "event": "FAULT_DIAGNOSED", "incident_id": "18048b6d-7bf7-4fcd-bded-5c2ee57e08cf", "fault_type": "ROUTE_MISMATCH", "action": "RECONCILE", "target": "router-a"}
+{"timestamp": "2026-10-13T21:19:13.260323+00:00", "event_id": "37e57c99-44b6-428d-b206-781392ccf332", "version": "v4", "event": "RECOVERY_ATTEMPT", "incident_id": "18048b6d-7bf7-4fcd-bded-5c2ee57e08cf", "attempt": 1, "current": "inconsistent", "target": "router-a"}
+{"timestamp": "2026-10-13T21:19:17.948092+00:00", "event_id": "6fea2c1b-b810-41ec-b08f-6bd13ab0e124", "version": "v4", "event": "ROUTE_CHANGE_STARTED", "previous": "inconsistent", "target": "router-a", "reason": "ROUTE_MISMATCH", "incident_id": "18048b6d-7bf7-4fcd-bded-5c2ee57e08cf"}
+{"timestamp": "2026-10-13T21:19:19.941809+00:00", "event_id": "c85f324c-dbf2-4c96-a889-81d7148b4bfd", "version": "v4", "event": "ROUTE_CHANGE_SUCCESS", "previous": "inconsistent", "target": "router-a", "reason": "ROUTE_MISMATCH", "incident_id": "18048b6d-7bf7-4fcd-bded-5c2ee57e08cf", "duration_ms": 1994}
+{"timestamp": "2026-10-13T21:19:21.423413+00:00", "event_id": "63f0f417-6df8-4a1c-ab19-36ed565bb7e3", "version": "v4", "event": "INCIDENT_RESOLVED", "incident_id": "18048b6d-7bf7-4fcd-bded-5c2ee57e08cf", "active_router": "router-a", "resolution": "AUTOMATED_RECOVERY"}
+{"timestamp": "2026-10-13T21:19:27.591998+00:00", "event_id": "a665f3c3-babe-44dc-a74c-d527daeb8963", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T21:19:33.808967+00:00", "event_id": "e9b902a0-aeb3-4b8b-bba3-4e6864283a2e", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T21:19:39.970243+00:00", "event_id": "59aa5cb7-c2df-4344-b184-3a51514516f4", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-13T21:19:40.226825+00:00", "event_id": "a7fb4a22-a944-4789-a652-32f141307fea", "version": "v4", "event": "NETPILOT_V4_STOPPED", "pending_incident": null}
+{"event":"CLOUD_PIPELINE_TEST","version":"v4","source":"netpilot-agent","timestamp":"2026-10-14T18:06:25.3943509Z","incident_id":"1b063bbd-c59e-495b-9ae7-1dd304b4a9e4","event_id":"3d2ceea9-b6ea-4fe9-90f9-468585e19078","message":"Testing NetPilot automatic forwarding"}
+{"timestamp": "2026-10-14T18:14:41.053248+00:00", "event_id": "0ad807ef-de02-497c-ba0f-763936528b10", "version": "v4", "event": "NETPILOT_V4_STARTED", "pending_incident": null}
+{"timestamp": "2026-10-14T18:14:42.547071+00:00", "event_id": "9e4bd288-0f3d-4291-b5da-e2d90d5b257a", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T18:14:48.820291+00:00", "event_id": "f40132f1-ff2b-4b2f-a50c-20871859c307", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T18:14:55.189465+00:00", "event_id": "c66fadba-2351-4e86-bda5-790667970519", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T18:15:01.545222+00:00", "event_id": "fae0c5f0-3af4-448e-a10d-7f456d21f060", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T18:15:07.925726+00:00", "event_id": "bb850251-2adf-4eb1-80ec-5075d2b96c7c", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T18:15:16.209512+00:00", "event_id": "ae339850-011a-4862-af1b-4f824973ce42", "version": "v4", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 1, "active_router": "router-a"}
+{"timestamp": "2026-10-14T18:15:24.540605+00:00", "event_id": "776e1839-1657-4684-89cc-88e2c59db110", "version": "v4", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 2, "active_router": "router-a"}
+{"timestamp": "2026-10-14T18:15:33.019463+00:00", "event_id": "1b332102-3b34-4d53-81cc-65555ef886f6", "version": "v4", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 3, "active_router": "router-a"}
+{"timestamp": "2026-10-14T18:15:33.020527+00:00", "event_id": "e3ae7e6a-28b4-411b-b527-c7f17c9df33e", "version": "v4", "event": "INCIDENT_CREATED", "incident_id": "cf8a567c-a021-457d-be95-f1065da7ba79", "active_router": "router-a"}
+{"timestamp": "2026-10-14T18:15:34.910727+00:00", "event_id": "4507e798-f04e-4be5-9b89-949d7fed5307", "version": "v4", "event": "FAULT_DIAGNOSED", "incident_id": "cf8a567c-a021-457d-be95-f1065da7ba79", "fault_type": "ACTIVE_ROUTER_DOWN", "action": "FAILOVER", "target": "router-b"}
+{"timestamp": "2026-10-14T18:15:34.911902+00:00", "event_id": "33c262e6-0376-4932-97cb-c2960305390e", "version": "v4", "event": "RECOVERY_ATTEMPT", "incident_id": "cf8a567c-a021-457d-be95-f1065da7ba79", "attempt": 1, "current": "router-a", "target": "router-b"}
+{"timestamp": "2026-10-14T18:15:39.597845+00:00", "event_id": "77eb62ab-1393-46f6-b785-ac4401eb2c0a", "version": "v4", "event": "ROUTE_CHANGE_STARTED", "previous": "router-a", "target": "router-b", "reason": "ACTIVE_ROUTER_DOWN", "incident_id": "cf8a567c-a021-457d-be95-f1065da7ba79"}
+{"timestamp": "2026-10-14T18:15:41.249087+00:00", "event_id": "192f2543-5c76-4a6e-bb20-0e607eea5565", "version": "v4", "event": "ROUTE_CHANGE_SUCCESS", "previous": "router-a", "target": "router-b", "reason": "ACTIVE_ROUTER_DOWN", "incident_id": "cf8a567c-a021-457d-be95-f1065da7ba79", "duration_ms": 1651}
+{"timestamp": "2026-10-14T18:15:42.394407+00:00", "event_id": "96ab030c-0aef-49be-92f6-af934402ec2f", "version": "v4", "event": "INCIDENT_RESOLVED", "incident_id": "cf8a567c-a021-457d-be95-f1065da7ba79", "active_router": "router-b", "resolution": "AUTOMATED_RECOVERY"}
+{"timestamp": "2026-10-14T18:15:48.613541+00:00", "event_id": "e7e95ffe-6e22-4fa1-a108-167ac671c427", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T18:15:55.188383+00:00", "event_id": "c4b705cd-04d7-4b5d-9dad-aefded703fcd", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T18:16:01.896256+00:00", "event_id": "297db6e1-9a5f-49c0-81c3-4d6ea672b106", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T18:16:08.387887+00:00", "event_id": "72cd0e87-4754-4000-ac42-66b5d717560f", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T18:16:14.873051+00:00", "event_id": "9f1258b0-d81f-4e11-9559-ffe574820f58", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T18:16:21.419998+00:00", "event_id": "8d94b500-5a1d-408c-aa54-9a58a8dad929", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T18:16:27.970135+00:00", "event_id": "af949768-2c7d-46a6-ada7-3ea7247f9b77", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T18:16:34.404479+00:00", "event_id": "3ee13488-16e4-4c23-b839-970553dca119", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T18:16:40.768831+00:00", "event_id": "d9584a5e-ce27-4aba-a211-063b26ff6326", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T18:16:47.184068+00:00", "event_id": "4174327c-0f8b-4193-88f9-419ae8a64fb9", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T18:16:53.952691+00:00", "event_id": "343d294e-57fd-4713-8d11-ca9589507dbf", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T18:17:00.406649+00:00", "event_id": "7f0628d9-d77d-4f38-b2ec-e474d5d5a1be", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T18:17:06.912488+00:00", "event_id": "74989ae9-1aa7-4d3d-af9a-303be9847282", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T18:17:13.589563+00:00", "event_id": "e3342724-3b1d-482c-a6fc-757c9f5cda0b", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T18:17:20.135831+00:00", "event_id": "4138df7e-f5ea-41b4-b894-34e83cdffe6a", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T18:17:26.686953+00:00", "event_id": "7b6212eb-39ee-486a-b72b-5f7e94331e21", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T18:17:33.306075+00:00", "event_id": "5f1ffd1e-cba5-4d2d-b2a6-a5b425e8dd3d", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T18:17:39.850665+00:00", "event_id": "f8c29bd9-4f72-441b-b05e-b350013412cc", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T18:17:46.242435+00:00", "event_id": "a88cf03e-6273-49e5-88fc-e54a269b462f", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T18:17:52.962260+00:00", "event_id": "0f744f25-52fc-4f2c-8c75-0827e76856c5", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T18:17:59.457017+00:00", "event_id": "3cc68d83-8fb0-4dda-9b65-9ddc0351919f", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T18:18:07.181319+00:00", "event_id": "60508574-17c1-4e5c-9b25-af57cb68368e", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T18:18:15.064387+00:00", "event_id": "587730b1-599a-43bd-ade9-ad8443b7f1fd", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T18:18:22.749194+00:00", "event_id": "4d90fa32-59f8-484b-8074-b2b11e0951a0", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T18:18:30.558101+00:00", "event_id": "c6b32e3d-5d60-481c-a79a-19b913819809", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T18:18:38.573464+00:00", "event_id": "7cae6be8-f90f-4b2d-a570-504eb474322d", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T18:18:40.132118+00:00", "event_id": "4fa1d355-0752-4dc8-9a2b-c44547d653e0", "version": "v4", "event": "PRIMARY_STABLE", "checks": 6}
+{"timestamp": "2026-10-14T18:18:42.876799+00:00", "event_id": "1972a12b-157c-48bd-8e04-564773b1663a", "version": "v4", "event": "ROUTE_CHANGE_STARTED", "previous": "router-b", "target": "router-a", "reason": "AUTOMATIC_FAILBACK", "incident_id": null}
+{"timestamp": "2026-10-14T18:18:44.892339+00:00", "event_id": "57c46bf2-0854-4dce-97a9-6a6ffa9e929d", "version": "v4", "event": "ROUTE_CHANGE_SUCCESS", "previous": "router-b", "target": "router-a", "reason": "AUTOMATIC_FAILBACK", "incident_id": null, "duration_ms": 2016}
+{"timestamp": "2026-10-14T18:18:44.892772+00:00", "event_id": "d83bf487-513c-4caf-8255-90149d8a2b5e", "version": "v4", "event": "FAILBACK_RESULT", "successful": true}
+{"timestamp": "2026-10-14T18:18:51.198165+00:00", "event_id": "ce5625f7-9b22-419f-b991-4399feaf94f7", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T18:18:57.450106+00:00", "event_id": "c44a63c3-998d-4470-b7cd-76bf92df7c92", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T18:19:03.525536+00:00", "event_id": "19ed039f-1f99-430b-95f9-7948f4341f87", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T18:19:09.786807+00:00", "event_id": "7d681954-7dff-4699-a062-2b2fd21bdae9", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T18:19:16.011197+00:00", "event_id": "46fed10e-21e1-4733-9c93-0bd313ac09fb", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T18:19:22.220463+00:00", "event_id": "2206a456-a826-4174-9eb2-0d9947f87405", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T18:19:27.487227+00:00", "event_id": "2e392f37-9934-4020-ae65-31eb630a32aa", "version": "v4", "event": "NETPILOT_V4_STOPPED", "pending_incident": null}
+{"timestamp": "2026-10-14T19:56:04.084530+00:00", "event_id": "302c8f7e-6b8b-4598-993a-a4a850b60166", "version": "v4", "event": "NETPILOT_V4_STARTED", "pending_incident": null}
+{"timestamp": "2026-10-14T19:56:05.059698+00:00", "event_id": "207e6450-8f0b-49e1-b850-721c3a51006c", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T19:56:11.077517+00:00", "event_id": "28b9dbc8-8823-4d87-b28d-464c59414e8a", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T19:56:17.189380+00:00", "event_id": "ecf2977b-d2c6-4ba7-9073-5c3b98c2c121", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T19:56:23.341750+00:00", "event_id": "fadcbe4a-ac55-4bf0-a294-01813315a0e4", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T19:56:29.460092+00:00", "event_id": "e8881a7d-9aae-48e7-a8fc-dd1f3135f79f", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T19:56:35.832725+00:00", "event_id": "0b25ac8b-906c-4edb-b38e-e025ba90c23f", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T19:56:41.899296+00:00", "event_id": "ff4ee7c7-fd7f-4ca6-b48d-32774af1108b", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T19:56:47.914501+00:00", "event_id": "c5b0e737-64b9-4ecf-a6fb-3be29e2e5629", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T19:56:53.967744+00:00", "event_id": "5935004a-7d24-44b7-acec-d75dc3b268e1", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T19:57:00.236879+00:00", "event_id": "d5dd1fec-eee4-4d08-9cbe-121e54942112", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T19:57:08.358063+00:00", "event_id": "b88d099d-c32f-4f61-be1c-20a4eb7402d7", "version": "v4", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 1, "active_router": "router-a"}
+{"timestamp": "2026-10-14T19:57:15.104057+00:00", "event_id": "9542535b-e558-4971-a2a2-c5edd080f4fb", "version": "v4", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 2, "active_router": "router-a"}
+{"timestamp": "2026-10-14T19:57:23.274452+00:00", "event_id": "7dee65a0-1173-4d0d-b24c-7b99bd563423", "version": "v4", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 3, "active_router": "router-a"}
+{"timestamp": "2026-10-14T19:57:23.277716+00:00", "event_id": "a15a1bce-4c1d-4cd2-9ecb-772ef0a230bc", "version": "v4", "event": "INCIDENT_CREATED", "incident_id": "ca319e3b-7710-4eef-bb47-81405e2c97bc", "active_router": "router-a"}
+{"timestamp": "2026-10-14T19:57:24.696777+00:00", "event_id": "ca979cd3-8e28-4505-a149-c13e11e74e13", "version": "v4", "event": "FAULT_DIAGNOSED", "incident_id": "ca319e3b-7710-4eef-bb47-81405e2c97bc", "fault_type": "ACTIVE_ROUTER_DOWN", "action": "FAILOVER", "target": "router-b"}
+{"timestamp": "2026-10-14T19:57:24.699826+00:00", "event_id": "a8450eec-998a-49b5-9cf0-5fed8dfb7c9f", "version": "v4", "event": "RECOVERY_ATTEMPT", "incident_id": "ca319e3b-7710-4eef-bb47-81405e2c97bc", "attempt": 1, "current": "router-a", "target": "router-b"}
+{"timestamp": "2026-10-14T19:57:29.081657+00:00", "event_id": "a034e83c-99a0-4b8a-af92-89fe0e374a20", "version": "v4", "event": "ROUTE_CHANGE_STARTED", "previous": "router-a", "target": "router-b", "reason": "ACTIVE_ROUTER_DOWN", "incident_id": "ca319e3b-7710-4eef-bb47-81405e2c97bc"}
+{"timestamp": "2026-10-14T19:57:30.620986+00:00", "event_id": "03bccc49-19d8-4fdb-8a5f-7747abba0d08", "version": "v4", "event": "ROUTE_CHANGE_SUCCESS", "previous": "router-a", "target": "router-b", "reason": "ACTIVE_ROUTER_DOWN", "incident_id": "ca319e3b-7710-4eef-bb47-81405e2c97bc", "duration_ms": 1539}
+{"timestamp": "2026-10-14T19:57:31.575885+00:00", "event_id": "fd8416d0-cf13-40cc-8d84-7e05c240d45a", "version": "v4", "event": "INCIDENT_RESOLVED", "incident_id": "ca319e3b-7710-4eef-bb47-81405e2c97bc", "active_router": "router-b", "resolution": "AUTOMATED_RECOVERY"}
+{"timestamp": "2026-10-14T19:57:37.779614+00:00", "event_id": "5217f4c1-725e-47e0-8f79-276846d52c9f", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T19:57:44.177915+00:00", "event_id": "752d1ce9-6277-482f-a037-4d2de37633f1", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T19:57:50.462405+00:00", "event_id": "30360d75-0744-4a16-9e74-037af40e5a50", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T19:57:56.646888+00:00", "event_id": "9dbb3d9e-757f-4cbf-a56e-2869c0c020c5", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T19:58:02.850463+00:00", "event_id": "7ec20588-510e-42a1-8b74-42d52e525faf", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T19:58:09.019080+00:00", "event_id": "1af32494-374f-4f1e-ab6a-fc625e6b8d12", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T19:58:15.335163+00:00", "event_id": "a2e64c1f-a32b-4679-887b-1595906306a6", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T19:58:21.634860+00:00", "event_id": "234100a6-d685-451e-80a0-881c9cde0d08", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T19:58:28.009715+00:00", "event_id": "5e46e30d-c32d-4b13-87ea-01b0377b4e84", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T19:58:34.371187+00:00", "event_id": "82363b80-ba9d-48ce-9529-9accced2fe76", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T19:58:40.489093+00:00", "event_id": "ca9a2b0b-6682-4c99-85b0-73dd61476ebd", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T19:58:46.640910+00:00", "event_id": "47405af9-d229-464b-8483-eb2503ee9d32", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T19:58:52.972909+00:00", "event_id": "223e028d-a039-4125-9611-15081cec6644", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T19:58:59.349566+00:00", "event_id": "8e757259-e0f8-4eb4-8301-2402165f2ef0", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T19:59:05.667686+00:00", "event_id": "e4b5ac27-100a-43b9-a069-cc56d43f4154", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T19:59:11.882710+00:00", "event_id": "00d9c5af-6f1c-4b4a-bb7d-d4196606b6a9", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T19:59:18.209022+00:00", "event_id": "b4ac4703-1c86-4e2a-b170-2d52911bbd7c", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T19:59:24.537891+00:00", "event_id": "bf917b6b-0b6f-40ff-9da0-590b398e678a", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T19:59:30.917980+00:00", "event_id": "7242a008-9a66-4849-aeb0-a3ab4688be74", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T19:59:37.284248+00:00", "event_id": "e472fabb-de3e-4203-947b-9d1d0976a2f9", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T19:59:44.777695+00:00", "event_id": "ae5aaea6-7af4-4fe6-88c9-f6b06063b583", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T19:59:52.217397+00:00", "event_id": "a8457c6b-75c2-40bd-9827-0c293a0f146e", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T20:00:00.119228+00:00", "event_id": "a6e62af8-6d55-4ec7-b68a-7e0d1d02a141", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T20:00:07.585413+00:00", "event_id": "b89b9666-e4ea-427a-befa-fdaa56a2325f", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T20:00:15.319021+00:00", "event_id": "4a8a29ae-acc3-4494-a23e-1bc0bbf6f9a9", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T20:00:16.686981+00:00", "event_id": "5e866a2f-9403-4ee9-9f08-3572a5a4c6c8", "version": "v4", "event": "PRIMARY_STABLE", "checks": 6}
+{"timestamp": "2026-10-14T20:00:19.418433+00:00", "event_id": "6ae91b8a-2083-47e4-a3c7-f6ae298d7283", "version": "v4", "event": "ROUTE_CHANGE_STARTED", "previous": "router-b", "target": "router-a", "reason": "AUTOMATIC_FAILBACK", "incident_id": null}
+{"timestamp": "2026-10-14T20:00:21.099965+00:00", "event_id": "b456d3e6-f902-4025-9664-9c5f766fd3a9", "version": "v4", "event": "ROUTE_CHANGE_SUCCESS", "previous": "router-b", "target": "router-a", "reason": "AUTOMATIC_FAILBACK", "incident_id": null, "duration_ms": 1682}
+{"timestamp": "2026-10-14T20:00:21.100722+00:00", "event_id": "48e37c06-edf2-4e97-832d-4b2c7df8f72d", "version": "v4", "event": "FAILBACK_RESULT", "successful": true}
+{"timestamp": "2026-10-14T20:00:27.100195+00:00", "event_id": "3b5509b8-6ea6-4509-b9a7-a1e8ef8fc249", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:00:33.276881+00:00", "event_id": "c0e948ec-0158-4865-850a-010e4bf0abc4", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:00:39.458117+00:00", "event_id": "53516a38-c7b4-4c41-9fca-c0bbec70a631", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:00:45.602721+00:00", "event_id": "5fe4a817-2500-4951-8dad-98a95b84c2c9", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:00:51.587810+00:00", "event_id": "02729582-999f-47d1-bd8b-73626c98d12b", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:00:57.742388+00:00", "event_id": "c08c4ed8-9f80-4f2e-a54a-4810043e2bdb", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:01:03.934421+00:00", "event_id": "b80ca762-01c3-4d95-bc33-4460a3db72c6", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:01:11.175550+00:00", "event_id": "a53f856a-a5fe-41b5-aecb-c6344a441261", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:01:17.280231+00:00", "event_id": "ea444323-5392-4f00-b5e0-50f83557d6f1", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:01:23.583762+00:00", "event_id": "8d92740e-a907-4dc7-8288-093e0ecc82f6", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:01:30.052908+00:00", "event_id": "4b577dc2-2a50-44e3-807a-a6d1a3dfc093", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:01:36.206635+00:00", "event_id": "611172f3-8b04-42e0-854a-e627eca9070c", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:01:42.244077+00:00", "event_id": "5c911b29-c47a-4b07-bacd-ddb7e481125c", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:01:48.468435+00:00", "event_id": "9574d329-fc25-4c1a-a703-d87d66141d82", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:01:54.467167+00:00", "event_id": "34bb6df3-130d-4acf-987b-ba209e0af182", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:02:00.523285+00:00", "event_id": "5977151b-90bd-49f1-bfe6-021054344363", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:02:06.644161+00:00", "event_id": "e2bfdf23-0f10-4ed8-9348-ee604b6bb24c", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:02:12.669817+00:00", "event_id": "b504c3ab-92cc-4288-b759-ec7ebc12b783", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:02:18.743649+00:00", "event_id": "8407d9bb-5cdd-4ad3-ac2b-6451b5fec5c2", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:02:24.744108+00:00", "event_id": "0816e7f5-d469-439d-905f-a54ec1be2543", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:02:30.813485+00:00", "event_id": "c2b4cc19-cb54-40be-bd90-aaceda2d50ba", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:39:25.503419+00:00", "event_id": "591c820c-0ef6-4a5c-9fc4-a3c918f96bec", "version": "v4", "event": "NETPILOT_V4_STARTED", "pending_incident": null}
+{"timestamp": "2026-10-14T20:39:26.535588+00:00", "event_id": "2de32c94-6a16-4c30-97ea-5aea23eab7be", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:39:32.746572+00:00", "event_id": "6f54edd9-4393-4d72-ac80-6227adffbdc1", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:39:39.060039+00:00", "event_id": "1c8a4596-9924-4bcb-b5e2-b80bd741ab73", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:39:45.219281+00:00", "event_id": "9cebd2b7-1926-43d1-a5d4-3de913753018", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:39:51.295415+00:00", "event_id": "440aea42-e38a-4c93-bb08-fae2b3de0b4d", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:39:57.317016+00:00", "event_id": "53ca1d25-8d88-458b-9f51-e76dfd36d457", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:40:03.307550+00:00", "event_id": "8bee5800-b9d6-4178-bc3d-4c78caba2e20", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:40:09.453715+00:00", "event_id": "5a3b10f7-e029-4fa2-b05a-650e0cab3506", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:40:15.609672+00:00", "event_id": "9f0acd3f-fbe1-4d20-807b-8941602c6b0d", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:40:21.668325+00:00", "event_id": "20bdcf13-cfde-41d9-bc75-a5316e64c642", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:40:27.679808+00:00", "event_id": "fe8a8065-d213-4643-8745-11f66a8f7b51", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:40:33.820183+00:00", "event_id": "3c96cc28-9a65-44e2-bf5e-a80dc68c497c", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:40:39.954271+00:00", "event_id": "82912b47-3960-4418-83ac-2fcc83aeb028", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:40:45.897655+00:00", "event_id": "82c153a4-84b8-4346-bf6c-b79c8234f179", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:40:51.827998+00:00", "event_id": "cd491e24-cf59-4fec-b661-517c5446bcbc", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:40:57.896660+00:00", "event_id": "a2911f22-0950-4f59-a87d-6611aaaa5d90", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:41:04.131293+00:00", "event_id": "db604e92-8c30-40df-80e3-2976437edc07", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:41:10.110541+00:00", "event_id": "5a43cf40-28c1-4f61-9ae8-211f51af4d3c", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:41:16.283935+00:00", "event_id": "4ad650e2-4bc3-47c4-b31e-68b691c5f13b", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:41:22.212592+00:00", "event_id": "a483efa2-fbda-489b-970d-943312218a4d", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:41:28.285626+00:00", "event_id": "a7fb79af-c003-4aac-ad5d-3af0e40f22f0", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:41:34.476121+00:00", "event_id": "6f6f4da7-cdc6-4f9d-a0e4-3455cff7d0cc", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:41:40.639877+00:00", "event_id": "aa72b579-ed5d-4b66-b842-50ede1b738e1", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:41:46.764863+00:00", "event_id": "7191c2d2-a3ee-4ed0-afad-4bddf7f98481", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:41:52.726281+00:00", "event_id": "0ef2fd44-1c34-44fc-bd6f-8e0dde97b27b", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:41:59.755830+00:00", "event_id": "7e297652-2e43-49f8-b1bb-69590fee15bc", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:42:05.926445+00:00", "event_id": "bc41f507-2f5d-4208-a337-e7b194e10e08", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:42:12.243138+00:00", "event_id": "4f1d0d87-28d1-42a0-9ea7-fc63dba4fd49", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:42:18.556030+00:00", "event_id": "2cff8728-1bdb-4e43-ab61-5a48e129b814", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:42:24.903939+00:00", "event_id": "a2e8b6ac-9879-482d-98e8-8aa1c65358e2", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:42:31.268280+00:00", "event_id": "bc4fef55-4929-45e5-8358-c86e04df73e3", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:42:37.682067+00:00", "event_id": "aca7077b-0c0a-4869-814c-a80175621c5c", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:42:43.943749+00:00", "event_id": "a1c2b44f-d5f1-4a19-824c-28822822a706", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:42:50.247024+00:00", "event_id": "3c7bdcb5-f50b-4ade-83db-5c9fe1ccef2f", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:42:56.565576+00:00", "event_id": "8ba4672e-dfd5-48cc-822a-17968945ee1a", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:43:02.750872+00:00", "event_id": "85faea24-af74-4ab2-8eea-6f9616841636", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:43:09.154182+00:00", "event_id": "4ee65397-af52-41ff-929d-b6ae03527d7e", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:43:15.474973+00:00", "event_id": "64139556-a720-476f-b60a-dbae19bf0e77", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:43:21.682481+00:00", "event_id": "88634e39-cc73-4c5f-b1f1-1115c1581a7b", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:43:27.869222+00:00", "event_id": "b6ae8f1f-96e3-4ef7-9f39-9cbbbad8262a", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:43:34.115825+00:00", "event_id": "9ad76c62-4c20-4be4-9642-806df2fc05c9", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:43:40.654417+00:00", "event_id": "8592d9c1-ab52-445a-8e0b-e891ab855736", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:43:46.961284+00:00", "event_id": "0bdb13c6-84de-4366-a0b9-64aa31e8216f", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:43:53.228345+00:00", "event_id": "e8c08876-38ed-49d3-989c-5f238f9acf78", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:43:59.499267+00:00", "event_id": "fb3a1252-2cf7-46a6-93a9-97f4cff34648", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:44:05.691342+00:00", "event_id": "5c68295e-9331-4c24-9c84-f45066c1e721", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:44:11.963016+00:00", "event_id": "2088da3a-e2c3-4563-99a4-b4c090312bf5", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:44:18.209602+00:00", "event_id": "fd926dbb-ae80-434d-a39e-da2cba8264fc", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:44:24.552450+00:00", "event_id": "22a0c94d-2342-496a-bdcc-ea8bcd66e968", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:44:30.678671+00:00", "event_id": "5d3164d4-6eca-40ba-b922-f1d58ffbfb41", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:44:37.074047+00:00", "event_id": "f5f1d0d4-f546-4595-8f33-422c204c9e03", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:44:43.511551+00:00", "event_id": "178dae7b-faaa-413f-84b8-50f129f33958", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:44:49.920076+00:00", "event_id": "afc87021-4f2e-4d97-a463-8628e232561c", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:44:56.303381+00:00", "event_id": "35572254-d387-4058-a001-2de9ff2a934a", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:45:02.498825+00:00", "event_id": "9217c89a-84d5-425c-9286-054c0163b64d", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:45:08.813368+00:00", "event_id": "f33a4ebb-ae96-413d-8406-7653cf5b590b", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:45:15.149385+00:00", "event_id": "d7f535e1-199d-4ebb-8d1d-cf41e74c8dbf", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:45:23.618471+00:00", "event_id": "4f6c2c7f-220b-423a-ae2f-ef8ab4a05a6c", "version": "v4", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 1, "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:45:32.038618+00:00", "event_id": "812938dd-45c4-40fe-8700-6742a3e468f3", "version": "v4", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 2, "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:45:40.361000+00:00", "event_id": "0aff1d95-75cf-4153-8167-53ca7a408e22", "version": "v4", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 3, "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:45:40.363484+00:00", "event_id": "0102e35d-295f-4942-99a5-73cdb1cb8310", "version": "v4", "event": "INCIDENT_CREATED", "incident_id": "9ec10db7-bcfb-4fc4-adec-affa64195e9c", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:45:42.255234+00:00", "event_id": "ae076708-1af7-4fa8-ba4f-730a973937fc", "version": "v4", "event": "FAULT_DIAGNOSED", "incident_id": "9ec10db7-bcfb-4fc4-adec-affa64195e9c", "fault_type": "ACTIVE_ROUTER_DOWN", "action": "FAILOVER", "target": "router-b"}
+{"timestamp": "2026-10-14T20:45:42.259280+00:00", "event_id": "422d045e-94c9-43a8-a531-76d2c3e21eb4", "version": "v4", "event": "RECOVERY_ATTEMPT", "incident_id": "9ec10db7-bcfb-4fc4-adec-affa64195e9c", "attempt": 1, "current": "router-a", "target": "router-b"}
+{"timestamp": "2026-10-14T20:45:47.970094+00:00", "event_id": "5b280892-7e80-4150-b985-89d74c6bfb28", "version": "v4", "event": "ROUTE_CHANGE_STARTED", "previous": "router-a", "target": "router-b", "reason": "ACTIVE_ROUTER_DOWN", "incident_id": "9ec10db7-bcfb-4fc4-adec-affa64195e9c"}
+{"timestamp": "2026-10-14T20:45:50.078655+00:00", "event_id": "5b890d84-6e61-4a84-b0e1-322eb773c373", "version": "v4", "event": "ROUTE_CHANGE_SUCCESS", "previous": "router-a", "target": "router-b", "reason": "ACTIVE_ROUTER_DOWN", "incident_id": "9ec10db7-bcfb-4fc4-adec-affa64195e9c", "duration_ms": 2109}
+{"timestamp": "2026-10-14T20:45:51.887233+00:00", "event_id": "1177196a-0f32-445f-8cce-e02a333d7635", "version": "v4", "event": "INCIDENT_RESOLVED", "incident_id": "9ec10db7-bcfb-4fc4-adec-affa64195e9c", "active_router": "router-b", "resolution": "AUTOMATED_RECOVERY"}
+{"timestamp": "2026-10-14T20:45:58.147051+00:00", "event_id": "e7726f4f-f2a9-4223-b859-84935887ecdd", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T20:46:04.778590+00:00", "event_id": "5a50e4b5-8456-45c1-9d00-e515f856d448", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T20:46:11.227924+00:00", "event_id": "865f89d7-7755-4316-b99d-17d5e61af7a1", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T20:46:17.667043+00:00", "event_id": "d17eeaba-56d4-44a4-a9ca-43617b459ec3", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T20:46:24.266865+00:00", "event_id": "8f523f45-2a36-44fb-ae35-6c9d931fd9db", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-b"}
+{"timestamp": "2026-10-14T20:46:32.767718+00:00", "event_id": "a3e254b4-6906-4378-81c4-fb4ccf4a8698", "version": "v4", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 1, "active_router": "router-b"}
+{"timestamp": "2026-10-14T20:46:41.024070+00:00", "event_id": "ac455302-cfc8-46fb-afd9-068f9848e1dd", "version": "v4", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 2, "active_router": "router-b"}
+{"timestamp": "2026-10-14T20:46:49.348623+00:00", "event_id": "458ba5f6-4ada-4212-810c-9af65cc45cf5", "version": "v4", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 3, "active_router": "router-b"}
+{"timestamp": "2026-10-14T20:46:49.349767+00:00", "event_id": "406fd606-6495-4d8a-98fb-93dc8129ea18", "version": "v4", "event": "INCIDENT_CREATED", "incident_id": "09e5c204-a1b9-47b1-bf4a-818727ccb116", "active_router": "router-b"}
+{"timestamp": "2026-10-14T20:46:49.786317+00:00", "event_id": "63ea2962-ddf9-4349-b590-2fd98aed67fd", "version": "v4", "event": "FAULT_DIAGNOSED", "incident_id": "09e5c204-a1b9-47b1-bf4a-818727ccb116", "fault_type": "ACTIVE_ROUTER_DOWN_NO_BACKUP", "action": "ALERT_ONLY", "target": null}
+{"timestamp": "2026-10-14T20:46:49.788687+00:00", "event_id": "6c9829dd-2cd3-428b-88b7-1513bf56fe11", "version": "v4", "event": "MANUAL_REVIEW_REQUIRED", "incident_id": "09e5c204-a1b9-47b1-bf4a-818727ccb116", "reason": "ACTIVE_ROUTER_DOWN_NO_BACKUP"}
+{"timestamp": "2026-10-14T20:46:49.813880+00:00", "event_id": "361293a5-2f03-45e5-b61d-20cf16ce2bda", "version": "v4", "event": "INCIDENT_DEGRADED", "incident_id": "09e5c204-a1b9-47b1-bf4a-818727ccb116", "recovery_attempts": 1, "fault_type": "ACTIVE_ROUTER_DOWN_NO_BACKUP"}
+{"timestamp": "2026-10-14T20:46:49.814241+00:00", "event_id": "09b8c962-90d8-4710-9f9c-2218009c2763", "version": "v4", "event": "RECOVERY_RETRY_SCHEDULED", "incident_id": "09e5c204-a1b9-47b1-bf4a-818727ccb116", "delay_seconds": 30}
+{"timestamp": "2026-10-14T20:46:58.219299+00:00", "event_id": "ba28da1e-4d01-482c-8ac5-6da235d08e0d", "version": "v4", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 4, "active_router": "router-b"}
+{"timestamp": "2026-10-14T20:47:05.704479+00:00", "event_id": "240e8f34-dacf-42e4-8e08-7ef19e6a149c", "version": "v4", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 5, "active_router": "router-b"}
+{"timestamp": "2026-10-14T20:47:13.973303+00:00", "event_id": "d753b75c-7fcf-402f-831e-839d0bdb99ea", "version": "v4", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 6, "active_router": "router-b"}
+{"timestamp": "2026-10-14T20:47:20.730683+00:00", "event_id": "2ed9eec4-a2e9-41f9-81fd-81d09f502a83", "version": "v4", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 7, "active_router": "router-b"}
+{"timestamp": "2026-10-14T20:47:21.150397+00:00", "event_id": "07bd49d2-812c-4c79-8ab7-ab6e83f75671", "version": "v4", "event": "FAULT_DIAGNOSED", "incident_id": "09e5c204-a1b9-47b1-bf4a-818727ccb116", "fault_type": "ACTIVE_ROUTER_DOWN_NO_BACKUP", "action": "ALERT_ONLY", "target": null}
+{"timestamp": "2026-10-14T20:47:21.152768+00:00", "event_id": "a4b7cac4-0bd7-4287-aec3-df134a349651", "version": "v4", "event": "MANUAL_REVIEW_REQUIRED", "incident_id": "09e5c204-a1b9-47b1-bf4a-818727ccb116", "reason": "ACTIVE_ROUTER_DOWN_NO_BACKUP"}
+{"timestamp": "2026-10-14T20:47:21.154019+00:00", "event_id": "71b150ff-189f-47db-8c9f-dd9644cc32de", "version": "v4", "event": "INCIDENT_DEGRADED", "incident_id": "09e5c204-a1b9-47b1-bf4a-818727ccb116", "recovery_attempts": 2, "fault_type": "ACTIVE_ROUTER_DOWN_NO_BACKUP"}
+{"timestamp": "2026-10-14T20:47:21.154367+00:00", "event_id": "63305dfe-8598-48ca-8e13-f4488554e0ed", "version": "v4", "event": "RECOVERY_RETRY_SCHEDULED", "incident_id": "09e5c204-a1b9-47b1-bf4a-818727ccb116", "delay_seconds": 30}
+{"timestamp": "2026-10-14T20:47:29.659850+00:00", "event_id": "957344b5-7bb3-449f-83f9-6f1eb73e7c9d", "version": "v4", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 8, "active_router": "router-b"}
+{"timestamp": "2026-10-14T20:47:38.064582+00:00", "event_id": "0e8f68d3-b0c3-431b-89a2-09133a8ecf47", "version": "v4", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 9, "active_router": "router-b"}
+{"timestamp": "2026-10-14T20:47:45.575251+00:00", "event_id": "a50b2d17-92cd-49bf-a32c-9a496effac2a", "version": "v4", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 10, "active_router": "router-b"}
+{"timestamp": "2026-10-14T20:47:53.870692+00:00", "event_id": "8ab5a0f0-67b8-49e7-b5cb-97fb7b783993", "version": "v4", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 11, "active_router": "router-b"}
+{"timestamp": "2026-10-14T20:47:54.305792+00:00", "event_id": "74084485-2b22-4739-a52d-36aedb08709f", "version": "v4", "event": "FAULT_DIAGNOSED", "incident_id": "09e5c204-a1b9-47b1-bf4a-818727ccb116", "fault_type": "ACTIVE_ROUTER_DOWN_NO_BACKUP", "action": "ALERT_ONLY", "target": null}
+{"timestamp": "2026-10-14T20:47:54.308541+00:00", "event_id": "ea8c31a9-ca67-4abc-a5db-c8f04c91b554", "version": "v4", "event": "MANUAL_REVIEW_REQUIRED", "incident_id": "09e5c204-a1b9-47b1-bf4a-818727ccb116", "reason": "ACTIVE_ROUTER_DOWN_NO_BACKUP"}
+{"timestamp": "2026-10-14T20:47:54.310146+00:00", "event_id": "4f1ab952-6eb8-473c-bb50-41b20967a4aa", "version": "v4", "event": "INCIDENT_DEGRADED", "incident_id": "09e5c204-a1b9-47b1-bf4a-818727ccb116", "recovery_attempts": 3, "fault_type": "ACTIVE_ROUTER_DOWN_NO_BACKUP"}
+{"timestamp": "2026-10-14T20:47:54.310730+00:00", "event_id": "ceb49b3d-088e-462d-b5e7-3e9f8958deee", "version": "v4", "event": "RECOVERY_RETRY_SCHEDULED", "incident_id": "09e5c204-a1b9-47b1-bf4a-818727ccb116", "delay_seconds": 30}
+{"timestamp": "2026-10-14T20:48:02.921416+00:00", "event_id": "52119999-99db-435a-b6ec-a4dde41b8e0d", "version": "v4", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 12, "active_router": "router-b"}
+{"timestamp": "2026-10-14T20:48:09.260695+00:00", "event_id": "d219fab6-1230-45d3-b4ae-61cbaffec778", "version": "v4", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 13, "active_router": "router-b"}
+{"timestamp": "2026-10-14T20:48:15.778810+00:00", "event_id": "3d270a13-b8fe-4817-a6c7-3ec19668ec9f", "version": "v4", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 14, "active_router": "router-b"}
+{"timestamp": "2026-10-14T20:48:24.078790+00:00", "event_id": "157b44c5-53a4-4020-b629-c75471cae8ac", "version": "v4", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 15, "active_router": "router-b"}
+{"timestamp": "2026-10-14T20:48:30.791969+00:00", "event_id": "c4d0680e-86ce-44d3-9016-b0839bbc26f3", "version": "v4", "event": "CONNECTIVITY_FAILURE", "consecutive_failures": 16, "active_router": "router-b"}
+{"timestamp": "2026-10-14T20:48:32.730083+00:00", "event_id": "3b6985c4-d6d2-4091-a806-95d010f75f9a", "version": "v4", "event": "FAULT_DIAGNOSED", "incident_id": "09e5c204-a1b9-47b1-bf4a-818727ccb116", "fault_type": "ACTIVE_ROUTER_DOWN", "action": "FAILOVER", "target": "router-a"}
+{"timestamp": "2026-10-14T20:48:32.732160+00:00", "event_id": "78a13364-fbe8-4507-a657-814888e15aec", "version": "v4", "event": "RECOVERY_ATTEMPT", "incident_id": "09e5c204-a1b9-47b1-bf4a-818727ccb116", "attempt": 4, "current": "router-b", "target": "router-a"}
+{"timestamp": "2026-10-14T20:48:37.335419+00:00", "event_id": "8a60b26c-e3c2-4bc4-8876-c099af1c1800", "version": "v4", "event": "ROUTE_CHANGE_STARTED", "previous": "router-b", "target": "router-a", "reason": "ACTIVE_ROUTER_DOWN", "incident_id": "09e5c204-a1b9-47b1-bf4a-818727ccb116"}
+{"timestamp": "2026-10-14T20:48:39.343761+00:00", "event_id": "33ab2af0-59a2-4997-8ba6-6c23749b4398", "version": "v4", "event": "ROUTE_CHANGE_SUCCESS", "previous": "router-b", "target": "router-a", "reason": "ACTIVE_ROUTER_DOWN", "incident_id": "09e5c204-a1b9-47b1-bf4a-818727ccb116", "duration_ms": 2008}
+{"timestamp": "2026-10-14T20:48:40.899845+00:00", "event_id": "ec3d64a1-7133-4dcd-8d25-ed09e0fab63f", "version": "v4", "event": "INCIDENT_RESOLVED", "incident_id": "09e5c204-a1b9-47b1-bf4a-818727ccb116", "active_router": "router-a", "resolution": "AUTOMATED_RECOVERY"}
+{"timestamp": "2026-10-14T20:48:47.250924+00:00", "event_id": "40711d00-482a-4d66-b895-f6395d57fc2e", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:48:53.511857+00:00", "event_id": "c994f99b-25b7-411a-8a8a-a088bd2203b1", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:48:59.793353+00:00", "event_id": "3af9170c-cbf3-4aa0-b4e8-7bd9ad2fbe28", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:49:06.158705+00:00", "event_id": "32f417f2-70a9-4074-a036-5fca742e89ee", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}
+{"timestamp": "2026-10-14T20:49:12.385101+00:00", "event_id": "d1afc977-4b2c-46bc-a316-137444762ab0", "version": "v4", "event": "NETWORK_HEALTHY", "active_router": "router-a"}

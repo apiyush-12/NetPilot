@@ -1,0 +1,1 @@
+{"timestamp":"2026-10-14T17:27:40.6893693Z","schema_version":"1.0","incident_id":"d276b0e6-fdda-4064-9edc-d563413d7c50","source":"netpilot-agent","severity":"INFO","event_id":"46335434-2df5-4e5b-9c80-4b86ee85d97e","message":"Testing Lambda to DynamoDB persistence","event":"INCIDENT_TEST_DYNAMODB"}

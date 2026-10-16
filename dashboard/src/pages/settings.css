@@ -1,0 +1,75 @@
+/* NetPilot console Settings: full-width operational rows, never bento tiles. */
+.settings-main{display:flex;flex-direction:column;gap:15px}
+.setting-row{display:grid;grid-template-columns:minmax(230px,1fr) minmax(250px,0.75fr);gap:18px;align-items:center;min-height:64px;padding:14px 18px;border-bottom:1px solid #27373f}
+.setting-row-last{border-bottom:0}
+.setting-copy strong{display:block;font:700 12px "Segoe UI",Arial,sans-serif;color:#dce9ea;margin-bottom:5px}
+.setting-copy p{color:#819ca5;font-size:11px;line-height:1.6;max-width:600px}
+.setting-value{display:flex;align-items:center;justify-content:flex-start;min-width:0}
+.setting-select{width:100%;max-width:330px;min-height:36px}
+.settings-accent-list{display:flex;align-items:center;flex-wrap:wrap;gap:7px}
+.settings-accent-option{border:1px solid #3a4e58;background:#18252c;color:#b7ccd1;display:inline-flex;align-items:center;gap:7px;min-height:36px;padding:8px 11px;font-size:11px;font-weight:600}
+.settings-accent-option.active{border-color:var(--np-accent,#60d4bf);color:#ecfafb;background:#20333c}
+.settings-swatch{width:12px;height:12px;display:inline-block;border:1px solid #ffffff66}
+.swatch-teal{background:#60d4bf}.swatch-blue{background:#79a9ff}.swatch-amber{background:#e8bc73}
+.setting-toggle-label{display:flex;align-items:center;gap:11px;cursor:pointer;min-height:34px;user-select:none}
+.setting-toggle-label input{position:absolute;width:1px;height:1px;opacity:0}
+.setting-switch-track{position:relative;width:39px;height:22px;border:1px solid #57727b;background:#24343d;transition:background .15s}
+.setting-switch-track:after{position:absolute;content:"";width:14px;height:14px;top:3px;left:3px;background:#a3b3ba;transition:transform .15s}
+.setting-toggle-label input:checked+.setting-switch-track{background:var(--np-accent,#60d4bf);border-color:var(--np-accent,#60d4bf)}
+.setting-toggle-label input:checked+.setting-switch-track:after{background:#0a1b1c;transform:translateX(17px)}
+.setting-toggle-label input:focus-visible+.setting-switch-track{outline:2px solid var(--np-accent,#60d4bf);outline-offset:3px}
+.setting-switch-caption{font:700 10px Consolas,monospace;color:#91acb4;letter-spacing:.5px}
+.settings-security{padding:9px 18px 17px}
+.settings-security-line{display:flex;justify-content:space-between;align-items:center;gap:14px;padding:12px 2px;border-bottom:1px solid #25343d;font-size:11px;color:#b8cdd3}
+.settings-security-line>span{display:inline-flex;align-items:center;gap:10px}
+.settings-security-note{margin:18px 0;color:#90aab3;display:flex;gap:10px;align-items:flex-start;font-size:11px;line-height:1.7;max-width:930px}
+.settings-security-note svg{flex:none;color:#e4b66f}
+.settings-inline-actions,.settings-preference-actions{display:flex;align-items:center;gap:9px;flex-wrap:wrap}
+.settings-preference-actions{padding:16px 18px}
+.settings-feedback{flex-basis:100%;display:flex;gap:8px;align-items:center;color:#a7dfca;font-size:11px;padding:7px 0}
+@media(max-width:760px){.setting-row{grid-template-columns:1fr;gap:10px;padding:13px 12px}.settings-security{padding:10px 12px 17px}.settings-preference-actions{padding:12px}.setting-select{max-width:none}.setting-row .setting-value{width:100%}}
+
+/* Live display preferences applied at the document root. */
+:root{--np-accent:#60d4bf;--np-accent-strong:#94f0dc;--np-ink:#0c211c}
+:root.np-blue{--np-accent:#79a9ff;--np-accent-strong:#abc9ff;--np-ink:#0b1c33}
+:root.np-amber{--np-accent:#e8bc73;--np-accent-strong:#f6d69a;--np-ink:#31210a}
+:root.np-midnight{background:#05080c;color:#e0e9f4}
+.np-midnight body{background:#05080c}
+.np-midnight .sidebar{background:#070b10}
+.np-midnight .topbar{background:#090e14f3}
+.np-midnight .panel{background:#0a1117}
+.np-midnight .metric-strip{background:#0b131a}
+.np-midnight .nav-item:hover{background:#101d27}
+.np-midnight .nav-item.selected{background:#102631}
+.np-midnight .data-table th{background:#101b22}
+.np-midnight .data-table tbody tr:hover{background:#102029}
+.np-midnight .ops-command-bar{background:#0b1d25}
+.np-midnight .cloud-explorer-inspector{background:#091118}
+.np-midnight .modal{background:#0c1720}
+.np-blue .brand-symbol,.np-amber .brand-symbol{background:var(--np-accent);color:var(--np-ink)}
+.np-blue .nav-item.selected,.np-amber .nav-item.selected{background:#172d3a;color:#eaf4ff}
+.np-blue .nav-item.selected svg,.np-amber .nav-item.selected svg{color:var(--np-accent)}
+.np-blue .nav-item.selected i,.np-amber .nav-item.selected i{background:var(--np-accent)}
+.np-blue .button-accent,.np-amber .button-accent{background:var(--np-accent);border-color:var(--np-accent);color:var(--np-ink)}
+.np-blue .button-accent:hover:not(:disabled),.np-amber .button-accent:hover:not(:disabled){background:var(--np-accent-strong);border-color:var(--np-accent-strong)}
+.np-blue .eyebrow,.np-amber .eyebrow{color:var(--np-accent)}
+.np-blue .text-button,.np-amber .text-button{color:var(--np-accent)}
+.np-blue .cloud-explorer-tabs button.selected,.np-amber .cloud-explorer-tabs button.selected{background:var(--np-accent);color:var(--np-ink)}
+.np-blue .topo-active,.np-amber .topo-active{stroke:var(--np-accent)}
+.np-blue .route-key,.np-amber .route-key{background:var(--np-accent)}
+:root button:focus-visible,:root select:focus-visible,:root input:focus-visible{outline-color:var(--np-accent)}
+.np-compact .nav-item{padding:9px 12px}
+.np-compact .brand,.np-compact .topbar{min-height:72px;height:auto}
+.np-compact .main-content{padding-top:14px;padding-bottom:18px}
+.np-compact .page{gap:10px}
+.np-compact .section-head{padding:11px 14px;min-height:46px}
+.np-compact .data-table td{padding:6px 11px}
+.np-compact .data-table th{padding:7px 11px}
+.np-compact .service-table td{padding:8px 10px}
+.np-compact .process-row{padding:7px 11px}
+.np-compact .cloud-row{padding-top:10px;padding-bottom:10px}
+.np-compact .setting-row{min-height:51px;padding-top:9px;padding-bottom:9px}
+.np-large-text .nav-item,.np-large-text .data-table td,.np-large-text .setting-copy strong{font-size:14px}
+.np-large-text .page-head p,.np-large-text .setting-copy p,.np-large-text .cloud-row .small-text{font-size:13px}
+.np-large-text .data-table th,.np-large-text .section-head h2,.np-large-text .section-head p,.np-large-text .details-table{font-size:12px}
+.np-large-text .text-button,.np-large-text .button{font-size:12px}

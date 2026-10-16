@@ -1,0 +1,39 @@
+[NetPilot AWS Forwarder] Connected to SQS queue=netpilot-incidents-dev region=ap-south-1
+[NetPilot AWS Forwarder] Resuming from saved byte offset 79843
+[NetPilot AWS Forwarder] Watching A:\NetPilot\agent\logs\events.jsonl; press Ctrl+C to stop
+[NetPilot AWS Forwarder] SENT INCIDENT_CREATED event_id=a15a1bce-4c1d-4cd2-9ecb-772ef0a230bc sqs_message_id=13f67594-b094-4f5f-a107-21bf11b6d719
+[NetPilot AWS Forwarder] SENT FAULT_DIAGNOSED event_id=ca979cd3-8e28-4505-a149-c13e11e74e13 sqs_message_id=394a66f2-e632-490e-b25a-0a2a0e24bdd3
+[NetPilot AWS Forwarder] SENT RECOVERY_ATTEMPT event_id=a8450eec-998a-49b5-9cf0-5fed8dfb7c9f sqs_message_id=9d816df9-a340-4f08-a53d-5937019d65ba
+[NetPilot AWS Forwarder] SENT ROUTE_CHANGE_STARTED event_id=a034e83c-99a0-4b8a-af92-89fe0e374a20 sqs_message_id=54f1ba0d-a0bb-4b32-9331-0bfeb481d054
+[NetPilot AWS Forwarder] SENT ROUTE_CHANGE_SUCCESS event_id=03bccc49-19d8-4fdb-8a5f-7747abba0d08 sqs_message_id=10f76c81-f24e-4d57-9b0f-5ab3021d09e5
+[NetPilot AWS Forwarder] SENT INCIDENT_RESOLVED event_id=fd8416d0-cf13-40cc-8d84-7e05c240d45a sqs_message_id=9a304f1a-f8f1-42b2-a126-899c8410006e
+[NetPilot AWS Forwarder] SENT ROUTE_CHANGE_STARTED event_id=6ae91b8a-2083-47e4-a3c7-f6ae298d7283 sqs_message_id=09be6aa0-ee66-4429-b74f-6645f3ee9687
+[NetPilot AWS Forwarder] SENT ROUTE_CHANGE_SUCCESS event_id=b456d3e6-f902-4025-9664-9c5f766fd3a9 sqs_message_id=189f10dc-ed65-4079-8d43-48ada2677b09
+[NetPilot AWS Forwarder] SENT FAILBACK_RESULT event_id=48e37c06-edf2-4e97-832d-4b2c7df8f72d sqs_message_id=74ea09ba-dfa8-4367-84cb-a93f59f86cd9
+[NetPilot AWS Forwarder] Connected to SQS queue=netpilot-incidents-dev region=ap-south-1
+[NetPilot AWS Forwarder] Resuming from saved byte offset 93055
+[NetPilot AWS Forwarder] Watching A:\NetPilot\agent\logs\events.jsonl; press Ctrl+C to stop
+[NetPilot AWS Forwarder] SENT INCIDENT_CREATED event_id=0102e35d-295f-4942-99a5-73cdb1cb8310 sqs_message_id=db532b1f-b888-4ddf-a0cb-39c43b85eb80
+[NetPilot AWS Forwarder] SENT FAULT_DIAGNOSED event_id=ae076708-1af7-4fa8-ba4f-730a973937fc sqs_message_id=87c6bae2-017d-41c0-a8d7-d55fb70d138a
+[NetPilot AWS Forwarder] SENT RECOVERY_ATTEMPT event_id=422d045e-94c9-43a8-a531-76d2c3e21eb4 sqs_message_id=c3cd744b-00df-4305-a294-8fa307ab2d8a
+[NetPilot AWS Forwarder] SENT ROUTE_CHANGE_STARTED event_id=5b280892-7e80-4150-b985-89d74c6bfb28 sqs_message_id=9f291b3b-fdb4-4268-9f25-5d76b3afcc82
+[NetPilot AWS Forwarder] SENT ROUTE_CHANGE_SUCCESS event_id=5b890d84-6e61-4a84-b0e1-322eb773c373 sqs_message_id=2a0be89c-a308-44a1-8cdf-46aa301aca3e
+[NetPilot AWS Forwarder] SENT INCIDENT_RESOLVED event_id=1177196a-0f32-445f-8cce-e02a333d7635 sqs_message_id=c1f33580-137a-486c-80be-c4ed16efbcfa
+[NetPilot AWS Forwarder] SENT INCIDENT_CREATED event_id=406fd606-6495-4d8a-98fb-93dc8129ea18 sqs_message_id=9a4945fd-abba-4562-b1a6-a7293046d269
+[NetPilot AWS Forwarder] SENT FAULT_DIAGNOSED event_id=63ea2962-ddf9-4349-b590-2fd98aed67fd sqs_message_id=aecec430-3c83-4bbe-9cc8-071c98495edf
+[NetPilot AWS Forwarder] SENT MANUAL_REVIEW_REQUIRED event_id=6c9829dd-2cd3-428b-88b7-1513bf56fe11 sqs_message_id=540485e7-588d-4e7e-9c40-034348d1c728
+[NetPilot AWS Forwarder] SENT INCIDENT_DEGRADED event_id=361293a5-2f03-45e5-b61d-20cf16ce2bda sqs_message_id=8c0c63af-7fcf-480c-aec0-6b0679dedaa4
+[NetPilot AWS Forwarder] SENT RECOVERY_RETRY_SCHEDULED event_id=09b8c962-90d8-4710-9f9c-2218009c2763 sqs_message_id=a394c883-e541-4f2e-b53b-7d285bb9dfbe
+[NetPilot AWS Forwarder] SENT FAULT_DIAGNOSED event_id=07bd49d2-812c-4c79-8ab7-ab6e83f75671 sqs_message_id=df07f76e-172f-4f1a-bb60-7aa6b4eeae3a
+[NetPilot AWS Forwarder] SENT MANUAL_REVIEW_REQUIRED event_id=a4b7cac4-0bd7-4287-aec3-df134a349651 sqs_message_id=a7ed01da-0e1c-4593-87de-5066ff0edccd
+[NetPilot AWS Forwarder] SENT INCIDENT_DEGRADED event_id=71b150ff-189f-47db-8c9f-dd9644cc32de sqs_message_id=b1d403a8-d10a-4cdf-a9d2-2348ec2408da
+[NetPilot AWS Forwarder] SENT RECOVERY_RETRY_SCHEDULED event_id=63305dfe-8598-48ca-8e13-f4488554e0ed sqs_message_id=63039509-976f-4442-a38b-f31da44ae348
+[NetPilot AWS Forwarder] SENT FAULT_DIAGNOSED event_id=74084485-2b22-4739-a52d-36aedb08709f sqs_message_id=40b26d2f-5ec3-4c2c-8926-d434bf37ed3b
+[NetPilot AWS Forwarder] SENT MANUAL_REVIEW_REQUIRED event_id=ea8c31a9-ca67-4abc-a5db-c8f04c91b554 sqs_message_id=be1e4530-ca5b-445b-8612-2a7691e51262
+[NetPilot AWS Forwarder] SENT INCIDENT_DEGRADED event_id=4f1ab952-6eb8-473c-bb50-41b20967a4aa sqs_message_id=7ab3c5c8-1bdd-46f6-9419-71d16ff687a3
+[NetPilot AWS Forwarder] SENT RECOVERY_RETRY_SCHEDULED event_id=ceb49b3d-088e-462d-b5e7-3e9f8958deee sqs_message_id=1b3ceeb3-0bbf-4e17-98f0-826db9c85978
+[NetPilot AWS Forwarder] SENT FAULT_DIAGNOSED event_id=3b6985c4-d6d2-4091-a806-95d010f75f9a sqs_message_id=9b05c16c-828f-4426-8aa4-0c7f6a9349c2
+[NetPilot AWS Forwarder] SENT RECOVERY_ATTEMPT event_id=78a13364-fbe8-4507-a657-814888e15aec sqs_message_id=37a490e5-da02-405c-8b5e-7c69e89638bf
+[NetPilot AWS Forwarder] SENT ROUTE_CHANGE_STARTED event_id=8a60b26c-e3c2-4bc4-8876-c099af1c1800 sqs_message_id=58d869eb-9eb3-4b90-9c00-dd58803ac549
+[NetPilot AWS Forwarder] SENT ROUTE_CHANGE_SUCCESS event_id=33ab2af0-59a2-4997-8ba6-6c23749b4398 sqs_message_id=4b0fea6c-a4cc-4d01-af31-5fbb034e813f
+[NetPilot AWS Forwarder] SENT INCIDENT_RESOLVED event_id=ec3d64a1-7133-4dcd-8d25-ed09e0fab63f sqs_message_id=de3e5ca7-590d-46e8-8b3f-7e0eb763055d

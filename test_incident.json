@@ -1,0 +1,1 @@
+{"event":"INCIDENT_TEST","incident_id":"3e683fce-00be-496e-a3c7-896e86d95f07","source":"netpilot-agent","timestamp":"2026-10-14T16:32:42.2468256Z","schema_version":"1.0","severity":"INFO","message":"NetPilot first AWS SQS integration test"}

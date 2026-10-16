@@ -1,0 +1,94 @@
+/* NetPilot: additional operational-console palettes. No changes to network logic. */
+/* The Settings page imports this after settings.css so it can override original fixed colors. */
+
+/* All four options are dark, high-contrast themes; user-selected teal/blue/amber accents still work. */
+:root.np-carbon {
+  --np-bg:#111416; --np-sidebar:#0e1012; --np-bar:#191d20;
+  --np-panel:#1b2023; --np-elevated:#242b2e; --np-head:#242a2e;
+  --np-border:#465258; --np-text:#e5ecee; --np-muted:#a2b1b6;
+  --np-select:#2a363a; --np-terminal:#0b0e10;
+}
+:root.np-navy {
+  --np-bg:#0b1421; --np-sidebar:#08101c; --np-bar:#101f30;
+  --np-panel:#122335; --np-elevated:#193049; --np-head:#1b3145;
+  --np-border:#36516b; --np-text:#e5f0fc; --np-muted:#9eb8ce;
+  --np-select:#213d58; --np-terminal:#07121b;
+}
+:root.np-terminal {
+  --np-bg:#07110d; --np-sidebar:#06100a; --np-bar:#102016;
+  --np-panel:#102119; --np-elevated:#183125; --np-head:#183326;
+  --np-border:#355a47; --np-text:#dbf4e3; --np-muted:#9dbda8;
+  --np-select:#1d4230; --np-terminal:#030b06;
+}
+:root.np-industrial {
+  --np-bg:#1b1713; --np-sidebar:#15120e; --np-bar:#29221b;
+  --np-panel:#29231d; --np-elevated:#332c23; --np-head:#362c22;
+  --np-border:#625344; --np-text:#f4e8d6; --np-muted:#c5ae94;
+  --np-select:#453525; --np-terminal:#130e0b;
+}
+
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) {
+  background:var(--np-bg); color:var(--np-text);
+}
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) body {background:var(--np-bg); color:var(--np-text)}
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .sidebar {background:var(--np-sidebar);border-color:var(--np-border)}
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .topbar {background:var(--np-bar);border-color:var(--np-border)}
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .panel,
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .metric-strip,
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .setting-row,
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .modal {background:var(--np-panel);border-color:var(--np-border)}
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .ops-command-bar,
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .cloud-explorer-inspector,
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .trace-properties span,
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .topology-foot,
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .cloud-row-icon,
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .mini-button {background:var(--np-elevated);border-color:var(--np-border)}
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .data-table th {background:var(--np-head);color:var(--np-muted);border-color:var(--np-border)}
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .data-table td,
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .details-table td,
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .details-table th {border-color:var(--np-border);color:var(--np-text)}
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .data-table tbody tr:hover,
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .nav-item:hover,
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .incident-row:hover {background:var(--np-elevated)}
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .nav-item.selected,
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .incident-row.active {background:var(--np-select);color:var(--np-text)}
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .nav-item,
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .setting-copy p,
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .page-head p,
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .section-head p,
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .muted {color:var(--np-muted)}
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .page-head h2,
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .setting-copy strong,
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .section-head h2 {color:var(--np-text)}
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .section-head,
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .cloud-row,
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .setting-row {border-color:var(--np-border)}
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .text-input,
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .select-input,
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .settings-accent-option,
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .button:not(.button-accent) {background:var(--np-elevated);border-color:var(--np-border);color:var(--np-text)}
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .terminal-log {background:var(--np-terminal)}
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .app-footer {background:var(--np-bar);border-color:var(--np-border);color:var(--np-muted)}
+/* Preserve the selected accent rather than hardcoding teal. */
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .button-accent {background:var(--np-accent);border-color:var(--np-accent);color:var(--np-ink)}
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .button-accent:hover:not(:disabled) {background:var(--np-accent-strong);border-color:var(--np-accent-strong)}
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .brand-symbol {background:var(--np-accent);color:var(--np-ink)}
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .nav-item.selected svg,
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .eyebrow,
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .text-button {color:var(--np-accent)}
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .nav-item.selected i,
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .route-key {background:var(--np-accent)}
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .topo-active {stroke:var(--np-accent)}
+
+/* Keep the console theme selector visibly useful without adding decorative tiles. */
+.theme-picker {display:flex;flex-direction:column;gap:8px;width:100%;max-width:330px}
+.theme-preview {--preview-bg:#11191e;--preview-rail:#0c1217;--preview-fg:#d8e7eb;--preview-light:#60d4bf;display:flex;min-height:36px;align-items:center;gap:0;border:1px solid #53636c;background:var(--preview-bg);color:var(--preview-fg);font:700 9px Consolas,monospace;letter-spacing:.25px;overflow:hidden}
+.theme-preview-rail {background:var(--preview-rail);padding:12px 9px;height:100%;min-width:85px;border-right:1px solid #ffffff27}
+.theme-preview-screen {padding:0 9px;flex:1;white-space:nowrap}
+.theme-preview-light {width:8px;height:8px;margin-right:12px;background:var(--preview-light);border-radius:50%}
+.theme-preview-dark {--preview-bg:#11191e;--preview-rail:#0c1217;--preview-light:#60d4bf}
+.theme-preview-midnight {--preview-bg:#0a1117;--preview-rail:#070b10;--preview-light:#60d4bf}
+.theme-preview-carbon {--preview-bg:#1b2023;--preview-rail:#0e1012;--preview-light:#d1c3a1}
+.theme-preview-navy {--preview-bg:#122335;--preview-rail:#08101c;--preview-light:#79a9ff}
+.theme-preview-terminal {--preview-bg:#102119;--preview-rail:#06100a;--preview-fg:#dcf6e2;--preview-light:#6fe3a5}
+.theme-preview-industrial {--preview-bg:#29231d;--preview-rail:#15120e;--preview-fg:#f4e8d6;--preview-light:#e8bc73}
