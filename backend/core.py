@@ -147,6 +147,51 @@ class Lab:
         match = re.search(r"\bvia\s+(\d+\.\d+\.\d+\.\d+)\b", output)
         return match.group(1) if match else None
 
+    def router_diagnostics(self, router: str) -> dict[str, Any]:
+            """Read router status without modifying configuration."""
+
+            if router not in ROUTERS:
+                raise ControlError("Unsupported router")
+
+            states = self.service_states()
+            running = states[router]["running"]
+
+            client_ip, server_ip = ROUTERS[router]
+
+            result = {
+                "router": router,
+                "running": running,
+                "ip_forwarding": None,
+                "expected_addresses": {
+                    "client_side": client_ip,
+                    "server_side": server_ip,
+                },
+                "diagnostic_errors": [],
+            }
+
+            if not running:
+                return result
+
+            try:
+                value = self.exec(
+                    router,
+                    "sysctl",
+                    "-n",
+                    "net.ipv4.ip_forward"
+                ).strip()
+
+                if value in ("0", "1"):
+                    result["ip_forwarding"] = value == "1"
+                else:
+                    result["diagnostic_errors"].append(
+                        "Unexpected IP forwarding value"
+                    )
+
+            except ControlError as error:
+                result["diagnostic_errors"].append(str(error))
+
+            return result
+
     def status(self, jobs: dict[str, bool]) -> dict[str, Any]:
         try:
             services = self.service_states()

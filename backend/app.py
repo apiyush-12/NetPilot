@@ -20,6 +20,9 @@ from backend.cloud import cloud_events, cloud_status
 from backend.core import (AUDIT, EVENTS, LOG_DIR, ControlError, Lab, ProcessSupervisor,
                           append_audit, incident_summary, recent_jsonl)
 
+from pydantic import BaseModel, Field
+from ai_ops.service import analyze_question
+
 lab = Lab()
 supervisor = ProcessSupervisor()
 api_key = APIKeyHeader(name="X-NetPilot-Token", auto_error=False)
@@ -137,6 +140,17 @@ async def event_stream(request: Request):
     return StreamingResponse(generator(), media_type="text/event-stream",
                              headers={"Cache-Control": "no-cache", "X-Accel-Buffering": "no"})
 
+@app.get("/api/routers/{router}/diagnostics")
+def get_router_diagnostics(
+    router: Literal["router-a", "router-b"]
+):
+    try:
+        return lab.router_diagnostics(router)
+    except ControlError as error:
+        raise HTTPException(
+            status_code=503,
+            detail=str(error)
+        ) from error
 
 @app.post("/api/services/{service}/{action}", dependencies=[Depends(require_token)])
 def change_service(service: Literal["client", "server", "router-a", "router-b"],
@@ -164,3 +178,58 @@ def change_process(name: Literal["controller", "forwarder"],
     if action == "start":
         return run_audited("start", name, lambda: {"pid": supervisor.start(name)})
     return run_audited("stop", name, lambda: supervisor.stop(name))
+
+class AIAnalyzeRequest(BaseModel):
+    question: str = Field(min_length=5, max_length=1000)
+
+
+# Allow one AI investigation at a time per backend process.
+ai_investigation_lock = asyncio.Lock()
+
+
+@app.post(
+    "/api/ai/analyze",
+    dependencies=[Depends(require_token)]
+)
+async def analyze_network(request: AIAnalyzeRequest):
+
+    question = request.question.strip()
+
+    if len(question) < 5:
+        raise HTTPException(
+            status_code=422,
+            detail="Question is too short"
+        )
+
+    if ai_investigation_lock.locked():
+        raise HTTPException(
+            status_code=429,
+            detail="An AI investigation is already running"
+        )
+
+    async with ai_investigation_lock:
+        try:
+            result = await asyncio.wait_for(
+                analyze_question(question),
+                timeout=120
+            )
+
+            return result
+
+        except TimeoutError as error:
+            raise HTTPException(
+                status_code=504,
+                detail="AI investigation timed out"
+            ) from error
+
+        except RuntimeError as error:
+            raise HTTPException(
+                status_code=503,
+                detail="AI service is unavailable"
+            ) from error
+
+        except Exception as error:
+            raise HTTPException(
+                status_code=502,
+                detail="AI investigation failed"
+            ) from error

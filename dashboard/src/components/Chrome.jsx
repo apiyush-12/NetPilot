@@ -1,10 +1,11 @@
 import React from 'react'
-import { Activity, Cloud, Database, Command, FileText, GitBranch, History, LockKeyhole, Radio, Shield, ShieldCheck, SlidersHorizontal, TerminalSquare } from 'lucide-react'
+import { Activity, Cloud, Database, Command, FileText, GitBranch, History, LockKeyhole, Radio, Shield, ShieldCheck, SlidersHorizontal, TerminalSquare, BrainCircuit } from 'lucide-react'
 
 export const NAV = [
   { id: 'operations', label: 'Control Center', icon: Command },
   { id: 'monitoring', label: 'Monitoring', icon: Activity },
   { id: 'recovery', label: 'Recovery Tracker', icon: GitBranch },
+  { id: 'ai-operations', label: 'AI Operations', icon: BrainCircuit },
   { id: 'events', label: 'Event Logs', icon: TerminalSquare },
   { id: 'cloud', label: 'AWS Operations', icon: Cloud },
   { id: 'cloud-events', label: 'Cloud Events', icon: Database },

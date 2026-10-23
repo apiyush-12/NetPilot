@@ -12,6 +12,7 @@ import CloudEvents from './pages/CloudEvents.jsx'
 import Audit from './pages/Audit.jsx'
 import Settings from './pages/Settings.jsx'
 import { formatClock, loadSettings, normalizeSettings, saveSettings } from './lib/settings.js'
+import AIOperations from './pages/AIOperations.jsx'
 
 const ACTIONS = {
   lab: { start: ['Start the complete Docker lab', 'Start all existing NetPilot containers. This does not recreate missing containers.', false], stop: ['Stop the entire Docker lab', 'All NetPilot containers will stop and connectivity will be lost. Stop the controller first.', true] },
@@ -21,8 +22,15 @@ const ACTIONS = {
 }
 
 const PAGE = {
-  operations: Operations, monitoring: Monitoring, recovery: Recovery,
-  events: Events, cloud: Cloud, 'cloud-events': CloudEvents, audit: Audit, settings: Settings
+  operations: Operations,
+  monitoring: Monitoring,
+  recovery: Recovery,
+  events: Events,
+  'ai-operations': AIOperations,
+  cloud: Cloud,
+  'cloud-events': CloudEvents,
+  audit: Audit,
+  settings: Settings
 }
 
 export default function App() {
@@ -47,6 +55,12 @@ export default function App() {
   const [streamOnline, setStreamOnline] = useState(false)
   const eventsRef = useRef([])
   const alertIds = useRef(new Set())
+  const [aiSession, setAiSession] = useState({
+    question: 'Explain the latest network incident and its recovery.',
+    loading: false,
+    result: null,
+    error: ''
+  })
 
   const updateSetting = (key, value) => setSettings(current => normalizeSettings({ ...current, [key]: value }))
   const lockControls = () => { setToken(''); setTempToken(''); setNotice({ type: 'success', text: 'Control token cleared from console memory.' }) }
@@ -167,6 +181,7 @@ export default function App() {
   if (view === 'audit') pageProps = { items: audit }
   if (view === 'cloud-events') pageProps = { settings }
   if (view === 'settings') pageProps = { settings, onChange: updateSetting, onReplace: setSettings, onLock: lockControls, onUnlock: () => { setTempToken(token); setTokenDialog(true) }, tokenLoaded: Boolean(token), backendOnline }
+  if (view === 'ai-operations') pageProps = { token, backendOnline, aiSession, setAiSession, onUnlock: () => { setTempToken(token); setTokenDialog(true) }, tokenLoaded: Boolean(token), busy, requestAction, setView, onIncident: openIncident }
 
   return <div className="app-shell">
     <Sidebar view={view} setView={setView} online={backendOnline} tokenLoaded={Boolean(token)}/>
