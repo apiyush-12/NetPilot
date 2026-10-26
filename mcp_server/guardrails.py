@@ -1,6 +1,4 @@
 """Validation for data returned by NetPilot MCP tools."""
-
-
 INCIDENT_FIELDS = (
     "created_at",
     "last_event_at",
@@ -8,7 +6,6 @@ INCIDENT_FIELDS = (
     "fault_type",
     "resolution",
 )
-
 
 def sanitize_incidents(items, limit: int):
     """Return only validated incident summary fields."""
@@ -76,9 +73,7 @@ def sanitize_events(items, incident_id: str, limit: int):
 
     if not isinstance(items, list) or len(items) > limit:
         raise ValueError("Invalid event list")
-
     cleaned = []
-
     for item in items:
         if not isinstance(item, dict):
             raise ValueError("Invalid event record")
@@ -104,11 +99,9 @@ def sanitize_events(items, incident_id: str, limit: int):
                     )
 
                 record[field] = value
-
         for field in EVENT_NUMBER_FIELDS:
             if field in item:
                 value = item[field]
-
                 if (
                     type(value) is not int
                     or not 0 <= value <= 1_000_000_000
@@ -116,9 +109,6 @@ def sanitize_events(items, incident_id: str, limit: int):
                     raise ValueError(
                         f"Invalid numeric field: {field}"
                     )
-
                 record[field] = value
-
         cleaned.append(record)
-
     return cleaned
