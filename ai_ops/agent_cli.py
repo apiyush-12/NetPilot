@@ -11,6 +11,7 @@ from agents import RunHooks
 from dotenv import load_dotenv
 from agents import Agent, AsyncOpenAI, OpenAIChatCompletionsModel, Runner, set_tracing_disabled
 from agents.mcp import MCPServerStdio, create_static_tool_filter
+from ai_ops.guardrails import validate_question, InputGuardrailError
 
 ROOT = Path(__file__).resolve().parent.parent
 load_dotenv(ROOT / ".env")
@@ -139,9 +140,13 @@ async def main():
     # Disables Agents SDK tracing uploads; model requests still go to provider.
     set_tracing_disabled(True)
     provider, model_name, model = selected_model()
-    question = " ".join(sys.argv[1:]).strip() or (
-        "Check my network status and explain the latest incident."
-    )
+    try:
+        question = validate_question(" ".join(sys.argv[1:]).strip() or (
+            "Check my network status and explain the latest incident."
+        ))
+    except InputGuardrailError as error:
+        print(f"AI Input Guardrail Error: {error}", flush=True)
+        sys.exit(1)
     print(f"NetPilot AI | provider: {provider} | model: {model_name}")
 
     async with MCPServerStdio(

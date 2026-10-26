@@ -173,6 +173,52 @@ export default function AIOperations({
                 MODEL: {result.model}
               </div>
 
+              {/* G3: Output Guardrail Results */}
+              {result.guardrails && (
+                <div className="ai-security-note">
+                  <ShieldCheck size={16} />
+
+                  <div>
+                    <strong>
+                      OUTPUT GUARDRAIL: {
+                        result.guardrails.status?.toUpperCase()
+                      }
+                    </strong>
+
+                    <div>
+                      Output Format: {
+                        result.guardrails.checks?.output_format
+                      }
+                    </div>
+
+                    <div>
+                      Secret Scan: {
+                        result.guardrails.checks?.secret_scan
+                      }
+                    </div>
+
+                    <div>
+                      Tool Allowlist: {
+                        result.guardrails.checks?.tool_allowlist
+                      }
+                    </div>
+
+                    {(result.guardrails.warnings || []).map(
+                      (warning, index) => (
+                        <p key={index}>
+                          Warning: {warning}
+                        </p>
+                      )
+                    )}
+
+                    <small>
+                      Audit ID: {result.audit_id}
+                    </small>
+                  </div>
+                </div>
+              )}
+
+              {/* Existing AI Analysis */}
               <div className="ai-answer-content">
                 <ReactMarkdown
                   remarkPlugins={[remarkGfm]}
