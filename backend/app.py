@@ -22,6 +22,8 @@ from backend.core import (AUDIT, EVENTS, LOG_DIR, ControlError, Lab, ProcessSupe
 
 from pydantic import BaseModel, Field
 from ai_ops.service import analyze_question
+from ai_ops.guardrails import InputGuardrailError
+from ai_ops.output_guardrails import OutputGuardrailError
 
 lab = Lab()
 supervisor = ProcessSupervisor()
@@ -222,10 +224,22 @@ async def analyze_network(request: AIAnalyzeRequest):
                 detail="AI investigation timed out"
             ) from error
 
+        except InputGuardrailError as error:
+            raise HTTPException(
+                status_code=422,
+                detail=f"AI Input Guardrail: {error}"
+            ) from error
+
         except RuntimeError as error:
             raise HTTPException(
                 status_code=503,
                 detail="AI service is unavailable"
+            ) from error
+
+        except OutputGuardrailError as error:
+            raise HTTPException(
+                status_code=502,
+                detail="AI Output Guardrail: Response withheld."
             ) from error
 
         except Exception as error:

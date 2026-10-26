@@ -2,6 +2,7 @@ from typing import Any, Literal
 
 import httpx
 from mcp.server import MCPServer
+from mcp_server.guardrails import (sanitize_incidents, sanitize_events)
 
 # Create our MCP server
 mcp = MCPServer("NetPilot-MCP")
@@ -87,7 +88,7 @@ def get_incidents(limit: int = 10) -> dict[str, Any]:
             response.raise_for_status()
             data = response.json()
 
-        items = data.get("items")
+        items = sanitize_incidents(data.get("items"), limit)
 
         if not isinstance(items, list):
             return {
@@ -159,7 +160,7 @@ def get_incident_events(
         if not isinstance(data, dict):
             raise ValueError("Invalid response")
 
-        events = data.get("items")
+        events = sanitize_events(data.get("items"), incident_id, limit)
 
         if not isinstance(events, list):
             raise ValueError("Invalid events list")
