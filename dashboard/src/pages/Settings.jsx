@@ -25,7 +25,9 @@ const THEME_OPTIONS = [
   ['carbon', 'Carbon Steel / charcoal'],
   ['navy', 'Command Navy / blue-gray'],
   ['terminal', 'Terminal Green / classic NOC'],
-  ['industrial', 'Industrial Amber / warm graphite']
+  ['industrial', 'Industrial Amber / warm graphite'],
+  ['copper', 'Copper / dark orange'],
+  ['light', 'Cloud White / professional light']
 ]
 const INTERVAL_LABEL = value => value === 0 ? 'Manual only' : `Every ${value} seconds`
 

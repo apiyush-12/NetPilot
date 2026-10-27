@@ -20,7 +20,7 @@ export const DEFAULT_SETTINGS = Object.freeze({
 })
 
 const ALLOWED = {
-  theme: ['dark', 'midnight', 'carbon', 'navy', 'terminal', 'industrial'],
+  theme: ['dark', 'midnight', 'carbon', 'navy', 'terminal', 'industrial', 'copper', 'light'],
   accent: ['teal', 'blue', 'amber'],
   density: ['comfortable', 'compact'],
   textScale: ['normal', 'large'],
@@ -45,7 +45,7 @@ export function normalizeSettings(value) {
 
 // Additional visual themes are applied here so no App.jsx replacement is needed.
 // App.jsx continues to manage Graphite/Midnight, accent, density and text size.
-export const EXTRA_CONSOLE_THEMES = ['carbon', 'navy', 'terminal', 'industrial']
+export const EXTRA_CONSOLE_THEMES = ['carbon', 'navy', 'terminal', 'industrial', 'copper', 'light']
 export function applyConsoleTheme(theme) {
   if (typeof document === 'undefined') return
   const root = document.documentElement
