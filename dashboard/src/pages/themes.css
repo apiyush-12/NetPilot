@@ -26,59 +26,80 @@
   --np-border:#625344; --np-text:#f4e8d6; --np-muted:#c5ae94;
   --np-select:#453525; --np-terminal:#130e0b;
 }
+:root.np-copper {
+  --np-bg:#1c0f0a; --np-sidebar:#140b07; --np-bar:#2a1a14;
+  --np-panel:#2b1c15; --np-elevated:#3a261e; --np-head:#3d261e;
+  --np-border:#7a5c4b; --np-text:#f4e8d6; --np-muted:#c5ae94;
+  --np-select:#4e3223; --np-terminal:#130e0b;
+}
+:root.np-light {
+  color-scheme: light;
 
-:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) {
+  --np-bg: #f4f7fa;
+  --np-sidebar: #ffffff;
+  --np-bar: #ffffff;
+  --np-panel: #ffffff;
+  --np-elevated: #edf2f7;
+  --np-head: #e8eef5;
+  --np-border: #cbd7e2;
+  --np-text: #1c3044;
+  --np-muted: #536b80;
+  --np-select: #dcefe9;
+  --np-terminal: #17242e;
+}
+
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial,.np-copper,.np-light) {
   background:var(--np-bg); color:var(--np-text);
 }
-:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) body {background:var(--np-bg); color:var(--np-text)}
-:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .sidebar {background:var(--np-sidebar);border-color:var(--np-border)}
-:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .topbar {background:var(--np-bar);border-color:var(--np-border)}
-:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .panel,
-:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .metric-strip,
-:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .setting-row,
-:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .modal {background:var(--np-panel);border-color:var(--np-border)}
-:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .ops-command-bar,
-:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .cloud-explorer-inspector,
-:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .trace-properties span,
-:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .topology-foot,
-:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .cloud-row-icon,
-:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .mini-button {background:var(--np-elevated);border-color:var(--np-border)}
-:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .data-table th {background:var(--np-head);color:var(--np-muted);border-color:var(--np-border)}
-:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .data-table td,
-:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .details-table td,
-:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .details-table th {border-color:var(--np-border);color:var(--np-text)}
-:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .data-table tbody tr:hover,
-:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .nav-item:hover,
-:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .incident-row:hover {background:var(--np-elevated)}
-:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .nav-item.selected,
-:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .incident-row.active {background:var(--np-select);color:var(--np-text)}
-:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .nav-item,
-:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .setting-copy p,
-:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .page-head p,
-:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .section-head p,
-:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .muted {color:var(--np-muted)}
-:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .page-head h2,
-:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .setting-copy strong,
-:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .section-head h2 {color:var(--np-text)}
-:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .section-head,
-:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .cloud-row,
-:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .setting-row {border-color:var(--np-border)}
-:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .text-input,
-:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .select-input,
-:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .settings-accent-option,
-:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .button:not(.button-accent) {background:var(--np-elevated);border-color:var(--np-border);color:var(--np-text)}
-:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .terminal-log {background:var(--np-terminal)}
-:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .app-footer {background:var(--np-bar);border-color:var(--np-border);color:var(--np-muted)}
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial,.np-copper,.np-light) body {background:var(--np-bg); color:var(--np-text)}
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial,.np-copper,.np-light) .sidebar {background:var(--np-sidebar);border-color:var(--np-border)}
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial,.np-copper,.np-light) .topbar {background:var(--np-bar);border-color:var(--np-border)}
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial,.np-copper,.np-light) .panel,
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial,.np-copper,.np-light) .metric-strip,
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial,.np-copper,.np-light) .setting-row,
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial,.np-copper,.np-light) .modal {background:var(--np-panel);border-color:var(--np-border)}
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial,.np-copper,.np-light) .ops-command-bar,
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial,.np-copper,.np-light) .cloud-explorer-inspector,
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial,.np-copper,.np-light) .trace-properties span,
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial,.np-copper,.np-light) .topology-foot,
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial,.np-copper,.np-light) .cloud-row-icon,
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial,.np-copper,.np-light) .mini-button {background:var(--np-elevated);border-color:var(--np-border)}
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial,.np-copper,.np-light) .data-table th {background:var(--np-head);color:var(--np-muted);border-color:var(--np-border)}
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial,.np-copper,.np-light) .data-table td,
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial,.np-copper,.np-light) .details-table td,
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial,.np-copper,.np-light) .details-table th {border-color:var(--np-border);color:var(--np-text)}
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial,.np-copper,.np-light) .data-table tbody tr:hover,
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial,.np-copper,.np-light) .nav-item:hover,
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial,.np-copper,.np-light) .incident-row:hover {background:var(--np-elevated)}
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial,.np-copper,.np-light) .nav-item.selected,
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial,.np-copper,.np-light) .incident-row.active {background:var(--np-select);color:var(--np-text)}
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial,.np-copper,.np-light) .nav-item,
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial,.np-copper,.np-light) .setting-copy p,
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial,.np-copper,.np-light) .page-head p,
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial,.np-copper,.np-light) .section-head p,
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial,.np-copper,.np-light) .muted {color:var(--np-muted)}
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial,.np-copper,.np-light) .page-head h2,
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial,.np-copper,.np-light) .setting-copy strong,
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial,.np-copper,.np-light) .section-head h2 {color:var(--np-text)}
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial,.np-copper,.np-light) .section-head,
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial,.np-copper,.np-light) .cloud-row,
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial,.np-copper,.np-light) .setting-row {border-color:var(--np-border)}
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial,.np-copper,.np-light) .text-input,
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial,.np-copper,.np-light) .select-input,
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial,.np-copper,.np-light) .settings-accent-option,
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial,.np-copper,.np-light) .button:not(.button-accent) {background:var(--np-elevated);border-color:var(--np-border);color:var(--np-text)}
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial,.np-copper,.np-light) .terminal-log {background:var(--np-terminal)}
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial,.np-copper,.np-light) .app-footer {background:var(--np-bar);border-color:var(--np-border);color:var(--np-muted)}
 /* Preserve the selected accent rather than hardcoding teal. */
-:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .button-accent {background:var(--np-accent);border-color:var(--np-accent);color:var(--np-ink)}
-:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .button-accent:hover:not(:disabled) {background:var(--np-accent-strong);border-color:var(--np-accent-strong)}
-:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .brand-symbol {background:var(--np-accent);color:var(--np-ink)}
-:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .nav-item.selected svg,
-:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .eyebrow,
-:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .text-button {color:var(--np-accent)}
-:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .nav-item.selected i,
-:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .route-key {background:var(--np-accent)}
-:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial) .topo-active {stroke:var(--np-accent)}
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial,.np-copper,.np-light) .button-accent {background:var(--np-accent);border-color:var(--np-accent);color:var(--np-ink)}
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial,.np-copper,.np-light) .button-accent:hover:not(:disabled) {background:var(--np-accent-strong);border-color:var(--np-accent-strong)}
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial,.np-copper,.np-light) .brand-symbol {background:var(--np-accent);color:var(--np-ink)}
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial,.np-copper,.np-light) .nav-item.selected svg,
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial,.np-copper,.np-light) .eyebrow,
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial,.np-copper,.np-light) .text-button {color:var(--np-accent)}
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial,.np-copper,.np-light) .nav-item.selected i,
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial,.np-copper,.np-light) .route-key {background:var(--np-accent)}
+:root:is(.np-carbon,.np-navy,.np-terminal,.np-industrial,.np-copper,.np-light) .topo-active {stroke:var(--np-accent)}
 
 /* Keep the console theme selector visibly useful without adding decorative tiles. */
 .theme-picker {display:flex;flex-direction:column;gap:8px;width:100%;max-width:330px}
@@ -92,3 +113,94 @@
 .theme-preview-navy {--preview-bg:#122335;--preview-rail:#08101c;--preview-light:#79a9ff}
 .theme-preview-terminal {--preview-bg:#102119;--preview-rail:#06100a;--preview-fg:#dcf6e2;--preview-light:#6fe3a5}
 .theme-preview-industrial {--preview-bg:#29231d;--preview-rail:#15120e;--preview-fg:#f4e8d6;--preview-light:#e8bc73}
+
+/* NETPILOT - LIGHT MODE FIXES */
+
+:root.np-light body {
+  background: var(--np-bg);
+  color: var(--np-text);
+}
+
+/* Form controls */
+:root.np-light .text-input,
+:root.np-light .select-input {
+  background: #ffffff;
+  color: #1c3044;
+  border-color: #b8c8d7;
+}
+
+:root.np-light .text-input::placeholder {
+  color: #74889a;
+}
+
+/* Table readability */
+:root.np-light .data-table th {
+  background: #e8eef5;
+  color: #405970;
+}
+
+:root.np-light .data-table td,
+:root.np-light .details-table td,
+:root.np-light .details-table th {
+  color: #1c3044;
+}
+
+/* AI Operations */
+:root.np-light .ai-answer-content,
+:root.np-light .ai-answer-content h2,
+:root.np-light .ai-answer-content h3,
+:root.np-light .ai-answer-content h4,
+:root.np-light .ai-result-heading,
+:root.np-light .ai-tool-row strong {
+  color: #1c3044;
+}
+
+:root.np-light .ai-model-info,
+:root.np-light .ai-tool-row span,
+:root.np-light .ai-form-actions span,
+:root.np-light .ai-form-hint {
+  color: #536b80;
+}
+
+:root.np-light .ai-answer-content th,
+:root.np-light .ai-answer-content td,
+:root.np-light .ai-ops-form,
+:root.np-light .ai-tool-row {
+  border-color: var(--np-border);
+}
+
+:root.np-light .ai-security-note {
+  background: #e9f7f1;
+  color: #16664e;
+  border-color: #acd8c7;
+}
+
+/* Settings */
+:root.np-light .setting-copy strong,
+:root.np-light .settings-security-line {
+  color: var(--np-text);
+}
+
+:root.np-light .setting-copy p,
+:root.np-light .setting-switch-caption,
+:root.np-light .settings-security-note {
+  color: var(--np-muted);
+}
+
+/* Navigation */
+:root.np-light .nav-item {
+  color: #40566c;
+}
+
+:root.np-light .nav-item.selected {
+  background: #dcefe9;
+  color: #0b6957;
+}
+
+/* Theme preview */
+.theme-preview-light {
+  --preview-bg: #f4f7fa;
+  --preview-rail: #ffffff;
+  --preview-fg: #1c3044;
+  --preview-light: #15947d;
+}
