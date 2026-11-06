@@ -1,0 +1,265 @@
+/* NetPilot Resilience Lab - operations console */
+
+.resilience-lab {
+  --rl-border: var(--np-border, #30424c);
+  --rl-panel: var(--np-panel, #11191e);
+  --rl-elevated: var(--np-elevated, #1b2931);
+  --rl-text: var(--np-text, #dce9ed);
+  --rl-muted: var(--np-muted, #91a5af);
+}
+
+.resilience-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 13px 16px;
+  border: 1px solid var(--rl-border);
+  background: var(--rl-panel);
+}
+
+.resilience-toolbar > div:first-child {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.resilience-toolbar strong,
+.resilience-playback-heading strong {
+  font: 700 11px Consolas, monospace;
+  letter-spacing: .6px;
+}
+
+.resilience-toolbar span,
+.resilience-note {
+  color: var(--rl-muted);
+  font-size: 11px;
+}
+
+.resilience-layout {
+  display: grid;
+  grid-template-columns: minmax(270px, .7fr) minmax(0, 1.5fr);
+  gap: 16px;
+  align-items: start;
+}
+
+.resilience-history,
+.resilience-viewer {
+  min-width: 0;
+}
+
+.resilience-history-list {
+  max-height: 680px;
+  overflow: auto;
+}
+
+.resilience-history-item {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  width: 100%;
+  padding: 16px;
+  border: 0;
+  border-bottom: 1px solid var(--rl-border);
+  background: transparent;
+  color: var(--rl-text);
+  text-align: left;
+}
+
+.resilience-history-item:hover {
+  background: var(--rl-elevated);
+}
+
+.resilience-history-item.active {
+  border-left: 3px solid var(--np-accent, #60d4bf);
+  background: var(--np-select, #1a3032);
+  padding-left: 13px;
+}
+
+.resilience-history-top,
+.resilience-playback-heading,
+.resilience-detail-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.resilience-history-top strong {
+  font-size: 11px;
+}
+
+.resilience-history-item > span,
+.resilience-history-item > small {
+  color: var(--rl-muted);
+  font: 10px Consolas, monospace;
+}
+
+.resilience-summary,
+.resilience-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  border-bottom: 1px solid var(--rl-border);
+}
+
+.resilience-summary > div,
+.resilience-metrics > div {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  min-width: 0;
+  padding: 16px;
+}
+
+.resilience-summary > div + div,
+.resilience-metrics > div + div {
+  border-left: 1px solid var(--rl-border);
+}
+
+.resilience-summary span,
+.resilience-metrics span {
+  color: var(--rl-muted);
+  font: 9px Consolas, monospace;
+  letter-spacing: .6px;
+}
+
+.resilience-summary strong {
+  color: var(--rl-text);
+  font: 700 11px Consolas, monospace;
+  overflow-wrap: anywhere;
+}
+
+.resilience-metrics {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  background: var(--rl-elevated);
+}
+
+.resilience-metrics strong {
+  color: var(--rl-text);
+  font-size: 18px;
+  font-variant-numeric: tabular-nums;
+}
+
+.resilience-playback {
+  padding: 18px 16px;
+  border-bottom: 1px solid var(--rl-border);
+}
+
+.resilience-playback-heading span {
+  color: var(--rl-muted);
+  font: 10px Consolas, monospace;
+}
+
+.resilience-progress {
+  height: 5px;
+  margin: 16px 0;
+  background: var(--rl-border);
+}
+
+.resilience-progress > div {
+  height: 100%;
+  background: var(--np-accent, #60d4bf);
+  transition: width .2s ease;
+}
+
+.resilience-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.resilience-event-list {
+  max-height: 350px;
+  overflow-y: auto;
+  border-bottom: 1px solid var(--rl-border);
+}
+
+.resilience-event-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  width: 100%;
+  padding: 13px 16px;
+  background: transparent;
+  color: var(--rl-text);
+  border: 0;
+  border-bottom: 1px solid var(--rl-border);
+  text-align: left;
+}
+
+.resilience-event-item:hover {
+  background: var(--rl-elevated);
+}
+
+.resilience-event-item.active {
+  background: var(--np-select, #1a3032);
+  box-shadow: inset 3px 0 var(--np-accent, #60d4bf);
+}
+
+.resilience-event-number,
+.resilience-event-time {
+  color: var(--rl-muted);
+  font: 10px Consolas, monospace;
+}
+
+.resilience-event-name {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.resilience-event-name strong {
+  font-size: 11px;
+}
+
+.resilience-event-name small {
+  color: var(--rl-muted);
+  font: 9px Consolas, monospace;
+}
+
+.resilience-event-detail {
+  padding-top: 17px;
+}
+
+.resilience-detail-heading {
+  padding: 0 16px 15px;
+}
+
+.resilience-detail-heading strong {
+  color: var(--rl-text);
+  font: 700 11px Consolas, monospace;
+  overflow-wrap: anywhere;
+}
+
+.resilience-event-detail .details-table {
+  width: 100%;
+}
+
+.resilience-event-detail td {
+  overflow-wrap: anywhere;
+}
+
+.resilience-note {
+  padding: 15px 16px;
+  line-height: 1.6;
+}
+
+@media (max-width: 1100px) {
+  .resilience-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .resilience-summary,
+  .resilience-metrics {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .resilience-toolbar {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}

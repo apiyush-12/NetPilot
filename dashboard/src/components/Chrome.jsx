@@ -1,5 +1,5 @@
 import React from 'react'
-import { Activity, Cloud, Database, Command, FileText, GitBranch, History, LockKeyhole, Radio, Shield, ShieldCheck, SlidersHorizontal, TerminalSquare, BrainCircuit } from 'lucide-react'
+import { Activity, Cloud, Database, Command, FileText, GitBranch, History, LockKeyhole, Radio, Shield, ShieldCheck, SlidersHorizontal, TerminalSquare, BrainCircuit, FlaskConical } from 'lucide-react'
 
 export const NAV = [
   { id: 'operations', label: 'Control Center', icon: Command },
@@ -10,6 +10,7 @@ export const NAV = [
   { id: 'cloud', label: 'AWS Operations', icon: Cloud },
   { id: 'cloud-events', label: 'Cloud Events', icon: Database },
   { id: 'audit', label: 'Action Audit', icon: History },
+  { id: 'resilience', label: 'Resilience Lab', icon: FlaskConical },
   { id: 'settings', label: 'Settings', icon: SlidersHorizontal }
 ]
 

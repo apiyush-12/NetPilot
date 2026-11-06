@@ -35,3 +35,41 @@
 {"timestamp": "2026-10-23T15:42:10.068807+00:00", "action": "reset-primary", "target": "routes", "outcome": "SUCCESS", "detail": ""}
 {"timestamp": "2026-10-23T15:42:20.309974+00:00", "action": "stop", "target": "lab", "outcome": "SUCCESS", "detail": ""}
 {"timestamp": "2026-10-23T20:31:18.093118+00:00", "action": "start", "target": "lab", "outcome": "SUCCESS", "detail": ""}
+{"timestamp": "2026-10-30T18:45:06.112368+00:00", "action": "start", "target": "lab", "outcome": "SUCCESS", "detail": ""}
+{"timestamp": "2026-10-30T19:01:16.976587+00:00", "action": "start", "target": "controller", "outcome": "SUCCESS", "detail": ""}
+{"timestamp": "2026-10-30T19:05:06.770017+00:00", "action": "stop", "target": "router-a", "outcome": "SUCCESS", "detail": ""}
+{"timestamp": "2026-10-30T19:05:58.697703+00:00", "action": "start", "target": "router-a", "outcome": "SUCCESS", "detail": ""}
+{"timestamp": "2026-11-03T17:09:45.964410+00:00", "action": "start", "target": "lab", "outcome": "SUCCESS", "detail": ""}
+{"timestamp": "2026-11-03T17:12:23.092384+00:00", "action": "stop", "target": "lab", "outcome": "SUCCESS", "detail": ""}
+{"timestamp": "2026-11-06T18:05:58.570021+00:00", "action": "resilience-inject", "target": "route_mismatch", "outcome": "ERROR", "detail": "Start the managed controller before injection"}
+{"timestamp": "2026-11-06T18:10:04.039121+00:00", "action": "reset-primary", "target": "routes", "outcome": "SUCCESS", "detail": ""}
+{"timestamp": "2026-11-06T18:10:50.615254+00:00", "action": "start", "target": "router-a", "outcome": "SUCCESS", "detail": ""}
+{"timestamp": "2026-11-06T18:12:24.535974+00:00", "action": "resilience-inject", "target": "route_mismatch", "outcome": "ERROR", "detail": "Start the managed controller before injection"}
+{"timestamp": "2026-11-06T18:12:49.127026+00:00", "action": "resilience-inject", "target": "primary_router_failure", "outcome": "ERROR", "detail": "Start the managed controller before injection"}
+{"timestamp": "2026-11-06T18:18:18.905779+00:00", "action": "resilience-inject", "target": "route_mismatch", "outcome": "ERROR", "detail": "Start the managed controller before injection"}
+{"timestamp": "2026-11-06T18:18:27.184224+00:00", "action": "resilience-inject", "target": "primary_router_failure", "outcome": "ERROR", "detail": "Start the managed controller before injection"}
+{"timestamp": "2026-11-06T18:21:37.531401+00:00", "action": "start", "target": "router-a", "outcome": "SUCCESS", "detail": ""}
+{"timestamp": "2026-11-06T18:21:50.369459+00:00", "action": "resilience-inject", "target": "route_mismatch", "outcome": "ERROR", "detail": "Start the managed controller before injection"}
+{"timestamp": "2026-11-06T18:22:41.769480+00:00", "action": "start", "target": "controller", "outcome": "SUCCESS", "detail": ""}
+{"timestamp": "2026-11-06T18:26:08.137863+00:00", "action": "resilience-inject", "target": "route_mismatch", "outcome": "SUCCESS", "detail": "0388824f-2e34-40e1-a343-9537a0156404"}
+{"timestamp": "2026-11-06T18:26:26.748791+00:00", "action": "resilience-inject", "target": "primary_router_failure", "outcome": "ERROR", "detail": "Network must be healthy before injection"}
+{"timestamp": "2026-11-06T18:30:01.731178+00:00", "action": "stop", "target": "controller", "outcome": "SUCCESS", "detail": ""}
+{"timestamp": "2026-11-06T19:03:16.813294+00:00", "action": "start", "target": "lab", "outcome": "SUCCESS", "detail": ""}
+{"timestamp": "2026-11-06T19:03:25.826909+00:00", "action": "start", "target": "controller", "outcome": "SUCCESS", "detail": ""}
+{"timestamp": "2026-11-06T19:03:49.191392+00:00", "action": "stop", "target": "controller", "outcome": "SUCCESS", "detail": ""}
+{"timestamp": "2026-11-06T19:04:01.450431+00:00", "action": "reset-primary", "target": "routes", "outcome": "SUCCESS", "detail": ""}
+{"timestamp": "2026-11-06T19:04:06.465603+00:00", "action": "start", "target": "lab", "outcome": "SUCCESS", "detail": ""}
+{"timestamp": "2026-11-06T19:05:30.584860+00:00", "action": "start", "target": "controller", "outcome": "SUCCESS", "detail": ""}
+{"timestamp": "2026-11-06T19:05:37.901010+00:00", "action": "stop", "target": "router-a", "outcome": "SUCCESS", "detail": ""}
+{"timestamp": "2026-11-06T19:06:51.107429+00:00", "action": "start", "target": "router-a", "outcome": "SUCCESS", "detail": ""}
+{"timestamp": "2026-11-06T19:25:13.445832+00:00", "action": "start", "target": "lab", "outcome": "SUCCESS", "detail": ""}
+{"timestamp": "2026-11-06T19:27:43.514428+00:00", "action": "resilience-inject", "target": "primary_router_failure", "outcome": "ERROR", "detail": "Start the managed controller before injection"}
+{"timestamp": "2026-11-06T19:29:07.810177+00:00", "action": "start", "target": "controller", "outcome": "SUCCESS", "detail": ""}
+{"timestamp": "2026-11-06T19:29:39.661861+00:00", "action": "resilience-inject", "target": "primary_router_failure", "outcome": "SUCCESS", "detail": "b407c014-fdc1-4eec-b956-f510d07ac659"}
+{"timestamp": "2026-11-06T19:31:00.306136+00:00", "action": "stop", "target": "controller", "outcome": "SUCCESS", "detail": ""}
+{"timestamp": "2026-11-06T20:04:18.894312+00:00", "action": "start", "target": "lab", "outcome": "SUCCESS", "detail": ""}
+{"timestamp": "2026-11-06T20:04:27.122005+00:00", "action": "start", "target": "controller", "outcome": "SUCCESS", "detail": ""}
+{"timestamp": "2026-11-06T20:06:29.675271+00:00", "action": "stop", "target": "controller", "outcome": "SUCCESS", "detail": ""}
+{"timestamp": "2026-11-06T20:06:36.102131+00:00", "action": "stop", "target": "lab", "outcome": "SUCCESS", "detail": ""}
+{"timestamp": "2026-11-06T20:07:45.566525+00:00", "action": "start", "target": "lab", "outcome": "SUCCESS", "detail": ""}
+{"timestamp": "2026-11-06T20:08:03.036226+00:00", "action": "stop", "target": "lab", "outcome": "SUCCESS", "detail": ""}
