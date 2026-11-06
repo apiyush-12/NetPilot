@@ -13,6 +13,7 @@ import Audit from './pages/Audit.jsx'
 import Settings from './pages/Settings.jsx'
 import { formatClock, loadSettings, normalizeSettings, saveSettings } from './lib/settings.js'
 import AIOperations from './pages/AIOperations.jsx'
+import ResilienceLab from './pages/ResilienceLab.jsx'
 
 const ACTIONS = {
   lab: { start: ['Start the complete Docker lab', 'Start all existing NetPilot containers. This does not recreate missing containers.', false], stop: ['Stop the entire Docker lab', 'All NetPilot containers will stop and connectivity will be lost. Stop the controller first.', true] },
@@ -30,7 +31,8 @@ const PAGE = {
   cloud: Cloud,
   'cloud-events': CloudEvents,
   audit: Audit,
-  settings: Settings
+  settings: Settings,
+  'resilience': ResilienceLab
 }
 
 export default function App() {

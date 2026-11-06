@@ -16,6 +16,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
 from fastapi.security.api_key import APIKeyHeader
 
+from backend.resilience import create_resilience_router
+
 from backend.cloud import cloud_events, cloud_status
 from backend.core import (AUDIT, EVENTS, LOG_DIR, ControlError, Lab, ProcessSupervisor,
                           append_audit, incident_summary, recent_jsonl)
@@ -53,6 +55,9 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(title="NetPilot Control API", version="1.0.0", lifespan=lifespan)
+app.include_router(
+    create_resilience_router(lab, supervisor, require_token)
+    )
 app.add_middleware(CORSMiddleware,
                    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173"],
                    allow_credentials=False,
