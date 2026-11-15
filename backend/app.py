@@ -27,6 +27,8 @@ from ai_ops.service import analyze_question
 from ai_ops.guardrails import InputGuardrailError
 from ai_ops.output_guardrails import OutputGuardrailError
 
+from backend.auth import require_user
+
 lab = Lab()
 supervisor = ProcessSupervisor()
 api_key = APIKeyHeader(name="X-NetPilot-Token", auto_error=False)
@@ -54,7 +56,7 @@ async def lifespan(app: FastAPI):
     supervisor.close()
 
 
-app = FastAPI(title="NetPilot Control API", version="1.0.0", lifespan=lifespan)
+app = FastAPI(title="NetPilot Control API", version="1.0.0", lifespan=lifespan, dependencies=[Depends(require_user)])
 app.include_router(
     create_resilience_router(lab, supervisor, require_token)
     )
@@ -62,13 +64,21 @@ app.add_middleware(CORSMiddleware,
                    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173"],
                    allow_credentials=False,
                    allow_methods=["GET", "POST"],
-                   allow_headers=["X-NetPilot-Token", "Content-Type"])
+                   allow_headers=["X-NetPilot-Token", "Content-Type", "Authorization"])
 
 
 @app.get("/api/health")
 def health():
     return {"service": "netpilot-control", "healthy": True, "scope": "local-only"}
 
+@app.get("/api/auth/me")
+def authenticated_user(
+    user_id: str = Depends(require_user)
+):
+    return {
+        "authenticated": True,
+        "user_id": user_id
+    }
 
 @app.get("/api/status")
 def network_status():
@@ -158,6 +168,7 @@ def get_router_diagnostics(
             status_code=503,
             detail=str(error)
         ) from error
+
 
 @app.post("/api/services/{service}/{action}", dependencies=[Depends(require_token)])
 def change_service(service: Literal["client", "server", "router-a", "router-b"],

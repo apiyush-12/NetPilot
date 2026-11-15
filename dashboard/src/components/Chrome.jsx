@@ -1,5 +1,6 @@
 import React from 'react'
 import { Activity, Cloud, Database, Command, FileText, GitBranch, History, LockKeyhole, Radio, Shield, ShieldCheck, SlidersHorizontal, TerminalSquare, BrainCircuit, FlaskConical } from 'lucide-react'
+import {UserButton} from '@clerk/react'
 
 export const NAV = [
   { id: 'operations', label: 'Control Center', icon: Command },
@@ -41,6 +42,7 @@ export function Header({ view, online, status, now, clockText, onRefresh, onUnlo
       <div className="header-time">{clockText || now.toLocaleTimeString()}</div>
       <button className="button button-quiet" onClick={onRefresh} disabled={busy}>REFRESH</button>
       <button className="button button-accent" onClick={onUnlock}>{tokenLoaded ? 'TOKEN LOADED' : 'UNLOCK CONTROLS'}</button>
+      <UserButton />
     </div>
   </header>
 }
