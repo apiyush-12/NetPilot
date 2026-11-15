@@ -1,0 +1,65 @@
+/* NetPilot authentication entry screen */
+
+.netpilot-auth-screen {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  padding: 32px 16px;
+  background: #0d151b;
+  color: #e6eff3;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+.netpilot-auth-heading {
+  text-align: center;
+}
+
+.netpilot-auth-symbol {
+  width: 48px;
+  height: 48px;
+  display: grid;
+  place-items: center;
+  margin: 0 auto 16px;
+  background: #1a3435;
+  border: 1px solid #32786c;
+  color: #74dcc2;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.netpilot-auth-heading h1 {
+  margin: 0;
+  font-size: 27px;
+  font-weight: 800;
+  letter-spacing: 3px;
+}
+
+.netpilot-auth-heading p {
+  margin: 8px 0 0;
+  color: #97acb8;
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+
+.netpilot-auth-panel {
+  width: 100%;
+  max-width: 430px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+
+.netpilot-auth-label,
+.netpilot-auth-footer {
+  font: 10px Consolas, monospace;
+  letter-spacing: 1px;
+  color: #91a6b3;
+}
+
+.netpilot-auth-footer {
+  text-align: center;
+}
