@@ -108,7 +108,7 @@ cd A:\NetPilot
 .\.venv\Scripts\Activate.ps1
 $env:NETPILOT_CONTROL_TOKEN = python -c "import secrets; print(secrets.token_urlsafe(32))"
 $env:NETPILOT_CONTROL_TOKEN | Set-Clipboard
-python -m uvicorn backend.app:app --host 127.0.0.1 --port 8000
+python -m uvicorn backend.app:app --host 127.0.0.1 --port 8000 --env-file .env
 ```
 
 Check backend health from another terminal:
